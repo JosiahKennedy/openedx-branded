@@ -1,0 +1,12 @@
+[2020-03-24 20:13:40 -0300] [9045] [INFO] Starting gunicorn 19.6.0
+[2020-03-24 20:13:40 -0300] [9045] [INFO] Listening at: http://127.0.0.1:8381 (9045)
+[2020-03-24 20:13:40 -0300] [9045] [INFO] Using worker: gevent
+[2020-03-24 20:13:40 -0300] [9070] [INFO] Booting worker with pid: 9070
+[2020-03-24 20:13:40 -0300] [9083] [INFO] Booting worker with pid: 9083
+[2020-03-24 20:14:02 -0300] [9495] [INFO] Starting gunicorn 19.6.0
+[2020-03-24 20:14:02 -0300] [9495] [ERROR] Connection in use: ('127.0.0.1', 8381)
+[2020-03-24 20:14:02 -0300] [9495] [ERROR] Retrying in 1 second.
+[2020-03-24 20:14:03 -0300] [9495] [INFO] Listening at: http://127.0.0.1:8381 (9495)
+[2020-03-24 20:14:03 -0300] [9495] [INFO] Using worker: gevent
+[2020-03-24 20:14:03 -0300] [9697] [INFO] Booting worker with pid: 9697
+[2020-03-24 20:14:03 -0300] [9702] [INFO] Booting worker with pid: 9702

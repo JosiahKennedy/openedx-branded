@@ -1,0 +1,78 @@
+2020-03-24T19:09:43.760-0300 I CONTROL  [initandlisten] MongoDB starting : pid=28817 port=27017 dbpath=/edx/var/mongo/mongodb 64-bit host=josiah-VirtualBox
+2020-03-24T19:09:43.761-0300 I CONTROL  [initandlisten] db version v3.2.16
+2020-03-24T19:09:43.761-0300 I CONTROL  [initandlisten] git version: 056bf45128114e44c5358c7a8776fb582363e094
+2020-03-24T19:09:43.761-0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2020-03-24T19:09:43.761-0300 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-03-24T19:09:43.761-0300 I CONTROL  [initandlisten] modules: none
+2020-03-24T19:09:43.761-0300 I CONTROL  [initandlisten] build environment:
+2020-03-24T19:09:43.761-0300 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2020-03-24T19:09:43.761-0300 I CONTROL  [initandlisten]     distarch: x86_64
+2020-03-24T19:09:43.761-0300 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-03-24T19:09:43.761-0300 I CONTROL  [initandlisten] options: { config: "/etc/mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/edx/var/mongo/mongodb", engine: "wiredTiger", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, logRotate: "reopen", path: "/edx/var/log/mongo/mongodb.log", quiet: true } }
+2020-03-24T19:09:43.806-0300 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2020-03-24T19:09:43.957-0300 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/edx/var/mongo/mongodb/diagnostic.data'
+2020-03-24T19:09:43.958-0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2020-03-24T19:09:43.958-0300 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2020-03-24T19:09:48.668-0300 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2020-03-24T19:09:48.668-0300 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2020-03-24T19:09:48.670-0300 I CONTROL  [signalProcessingThread] now exiting
+2020-03-24T19:09:48.670-0300 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2020-03-24T19:09:48.670-0300 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2020-03-24T19:09:48.670-0300 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2020-03-24T19:09:48.670-0300 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2020-03-24T19:09:48.670-0300 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2020-03-24T19:09:48.670-0300 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2020-03-24T19:09:48.671-0300 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2020-03-24T19:09:48.784-0300 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2020-03-24T19:09:48.784-0300 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2020-03-24T19:09:48.816-0300 I CONTROL  [main] ***** SERVER RESTARTED *****
+2020-03-24T19:09:48.854-0300 I CONTROL  [initandlisten] MongoDB starting : pid=28989 port=27017 dbpath=/edx/var/mongo/mongodb 64-bit host=josiah-VirtualBox
+2020-03-24T19:09:48.854-0300 I CONTROL  [initandlisten] db version v3.2.16
+2020-03-24T19:09:48.854-0300 I CONTROL  [initandlisten] git version: 056bf45128114e44c5358c7a8776fb582363e094
+2020-03-24T19:09:48.854-0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2020-03-24T19:09:48.854-0300 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-03-24T19:09:48.854-0300 I CONTROL  [initandlisten] modules: none
+2020-03-24T19:09:48.854-0300 I CONTROL  [initandlisten] build environment:
+2020-03-24T19:09:48.854-0300 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2020-03-24T19:09:48.854-0300 I CONTROL  [initandlisten]     distarch: x86_64
+2020-03-24T19:09:48.854-0300 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-03-24T19:09:48.854-0300 I CONTROL  [initandlisten] options: { config: "/etc/mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, replication: { replSetName: "rs0" }, security: { authorization: "enabled", keyFile: "/etc/mongodb_key" }, storage: { dbPath: "/edx/var/mongo/mongodb", engine: "wiredTiger", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, logRotate: "reopen", path: "/edx/var/log/mongo/mongodb.log", quiet: true } }
+2020-03-24T19:09:48.910-0300 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2020-03-24T19:09:49.695-0300 I REPL     [initandlisten] Did not find local voted for document at startup.
+2020-03-24T19:09:49.695-0300 I REPL     [initandlisten] Did not find local replica set configuration document at startup;  NoMatchingDocument: Did not find replica set configuration document in local.system.replset
+2020-03-24T19:09:49.696-0300 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2020-03-24T19:09:49.696-0300 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/edx/var/mongo/mongodb/diagnostic.data'
+2020-03-24T19:09:49.696-0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2020-03-24T19:09:51.761-0300 I REPL     [conn5] replSetInitiate admin command received from client
+2020-03-24T19:09:51.761-0300 I REPL     [conn5] replSetInitiate config object with 1 members parses ok
+2020-03-24T19:09:51.762-0300 I REPL     [conn5] ******
+2020-03-24T19:09:51.762-0300 I REPL     [conn5] creating replication oplog of size: 990MB...
+2020-03-24T19:09:51.775-0300 I STORAGE  [conn5] Starting WiredTigerRecordStoreThread local.oplog.rs
+2020-03-24T19:09:51.776-0300 I STORAGE  [conn5] The size storer reports that the oplog contains 0 records totaling to 0 bytes
+2020-03-24T19:09:51.776-0300 I STORAGE  [conn5] Scanning the oplog to determine where to place markers for truncation
+2020-03-24T19:09:51.805-0300 I REPL     [conn5] ******
+2020-03-24T19:09:51.832-0300 I REPL     [ReplicationExecutor] New replica set config in use: { _id: "rs0", version: 1, protocolVersion: 1, members: [ { _id: 0, host: "127.0.0.1:27017", arbiterOnly: false, buildIndexes: true, hidden: false, priority: 1.0, tags: {}, slaveDelay: 0, votes: 1 } ], settings: { chainingAllowed: true, heartbeatIntervalMillis: 2000, heartbeatTimeoutSecs: 10, electionTimeoutMillis: 10000, getLastErrorModes: {}, getLastErrorDefaults: { w: 1, wtimeout: 0 }, replicaSetId: ObjectId('5e7a852ffcb834a60c626607') } }
+2020-03-24T19:09:51.832-0300 I REPL     [ReplicationExecutor] This node is 127.0.0.1:27017 in the config
+2020-03-24T19:09:51.832-0300 I REPL     [ReplicationExecutor] transition to STARTUP2
+2020-03-24T19:09:51.832-0300 I REPL     [conn5] Starting replication applier threads
+2020-03-24T19:09:51.832-0300 I REPL     [ReplicationExecutor] transition to RECOVERING
+2020-03-24T19:09:51.836-0300 I REPL     [ReplicationExecutor] transition to SECONDARY
+2020-03-24T19:09:51.836-0300 I REPL     [ReplicationExecutor] conducting a dry run election to see if we could be elected
+2020-03-24T19:09:51.836-0300 I REPL     [ReplicationExecutor] dry election run succeeded, running for election
+2020-03-24T19:09:51.851-0300 I REPL     [ReplicationExecutor] election succeeded, assuming primary role in term 1
+2020-03-24T19:09:51.851-0300 I REPL     [ReplicationExecutor] transition to PRIMARY
+2020-03-24T19:09:52.836-0300 I REPL     [rsSync] transition to primary complete; database writes are now permitted
+2020-03-24T19:37:28.102-0300 I INDEX    [conn23] build index on: edxapp.fs.chunks properties: { v: 1, unique: true, key: { files_id: 1, n: 1 }, name: "files_id_1_n_1", ns: "edxapp.fs.chunks" }
+2020-03-24T19:37:28.102-0300 I INDEX    [conn23] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2020-03-24T19:37:28.104-0300 I INDEX    [conn23] build index done.  scanned 0 total records. 0 secs
+2020-03-24T21:29:31.888-0300 I COMMAND  [conn127] command admin.system.users command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", autoAuthorize: 1, payload: "xxx" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:163 locks:{ Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_query 274ms
+2020-03-24T21:29:31.888-0300 I COMMAND  [conn128] command admin.system.users command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", autoAuthorize: 1, payload: "xxx" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:163 locks:{ Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_query 274ms
+2020-03-24T21:30:03.112-0300 I COMMAND  [conn175] command admin.system.users command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", payload: "xxx" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:164 locks:{ Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_command 112ms
+2020-03-24T21:57:02.038-0300 I COMMAND  [conn184] command admin.$cmd command: isMaster { isMaster: 1 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:335 locks:{} protocol:op_query 283ms
+2020-03-24T22:36:02.563-0300 I COMMAND  [conn245] command admin.system.users command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", payload: "xxx" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:164 locks:{ Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_command 108ms
+2020-03-24T22:56:00.406-0300 I COMMAND  [conn102] command admin.$cmd command: isMaster { ismaster: 1 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:335 locks:{} protocol:op_query 262ms
+2020-03-24T23:42:03.655-0300 I COMMAND  [conn315] command admin.system.users command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", payload: "xxx" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:164 locks:{ Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_command 173ms
+2020-03-25T00:33:02.200-0300 I COMMAND  [conn380] command admin.system.users command: saslContinue { saslContinue: 1, payload: BinData(0, ), conversationId: 1 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:63 locks:{ Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } protocol:op_command 194ms
+2020-03-25T02:42:02.558-0300 I COMMAND  [conn519] command test.$cmd command: buildInfo { buildInfo: 1.0 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:1182 locks:{} protocol:op_command 102ms
+2020-03-25T02:45:24.944-0300 I COMMAND  [conn102] command admin.$cmd command: isMaster { ismaster: 1 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:335 locks:{} protocol:op_query 500ms
+2020-03-25T02:46:05.169-0300 I COMMAND  [conn102] command admin.$cmd command: isMaster { ismaster: 1 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:335 locks:{} protocol:op_query 202ms

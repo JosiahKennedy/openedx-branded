@@ -1,0 +1,549 @@
+ 
+ -------------- celery@edx.cms.core.default.josiah-VirtualBox v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-91-generic-x86_64-with-Ubuntu-16.04-xenial
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7fead1860e10
+- ** ---------- .> transport:   amqp://celery:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default exchange=edx.cms.core(direct) key=edx.cms.core.default
+                
+
+[tasks]
+  . celery_utils.tasks.mark_resolved
+  . cms.djangoapps.contentstore.tasks.CourseExportTask
+  . cms.djangoapps.contentstore.tasks.CourseImportTask
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript_subtask
+  . cms.djangoapps.contentstore.tasks.export_olx
+  . cms.djangoapps.contentstore.tasks.import_olx
+  . cms.djangoapps.contentstore.tasks.push_course_update_task
+  . cms.djangoapps.contentstore.tasks.rerun_course
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . cms.djangoapps.contentstore.tasks.task_status_callback
+  . cms.djangoapps.contentstore.tasks.update_library_index
+  . cms.djangoapps.contentstore.tasks.update_search_index
+  . cms_user_tasks.tasks.send_task_complete_email
+  . contentstore.tasks.CourseExportTask
+  . contentstore.tasks.CourseImportTask
+  . contentstore.tasks.async_migrate_transcript
+  . contentstore.tasks.async_migrate_transcript_subtask
+  . contentstore.tasks.export_olx
+  . contentstore.tasks.import_olx
+  . contentstore.tasks.push_course_update_task
+  . contentstore.tasks.rerun_course
+  . contentstore.tasks.task_scrape_youtube_thumbnail
+  . contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . contentstore.tasks.task_status_callback
+  . contentstore.tasks.update_library_index
+  . contentstore.tasks.update_search_index
+  . edx_sga.tasks.zip_student_submissions
+  . entitlements.tasks.expire_old_entitlements
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credit.tasks.update_credit_course_requirements
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._recurring_nudge_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._upgrade_reminder_schedule_send
+  . openedx.core.djangoapps.schedules.tasks.update_course_schedules
+  . openedx.core.djangoapps.service_status.tasks.delayed_ping
+  . openedx.core.djangoapps.verified_track_content.tasks.sync_cohort_with_mode
+  . student.tasks.send_activation_email
+  . user_tasks.tasks.purge_old_user_tasks
+
+ 
+ -------------- celery@edx.cms.core.default.josiah-VirtualBox v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-91-generic-x86_64-with-Ubuntu-16.04-xenial
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7f7665b46e10
+- ** ---------- .> transport:   amqp://celery:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default exchange=edx.cms.core(direct) key=edx.cms.core.default
+                
+
+[tasks]
+  . celery_utils.tasks.mark_resolved
+  . cms.djangoapps.contentstore.tasks.CourseExportTask
+  . cms.djangoapps.contentstore.tasks.CourseImportTask
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript_subtask
+  . cms.djangoapps.contentstore.tasks.export_olx
+  . cms.djangoapps.contentstore.tasks.import_olx
+  . cms.djangoapps.contentstore.tasks.push_course_update_task
+  . cms.djangoapps.contentstore.tasks.rerun_course
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . cms.djangoapps.contentstore.tasks.task_status_callback
+  . cms.djangoapps.contentstore.tasks.update_library_index
+  . cms.djangoapps.contentstore.tasks.update_search_index
+  . cms_user_tasks.tasks.send_task_complete_email
+  . contentstore.tasks.CourseExportTask
+  . contentstore.tasks.CourseImportTask
+  . contentstore.tasks.async_migrate_transcript
+  . contentstore.tasks.async_migrate_transcript_subtask
+  . contentstore.tasks.export_olx
+  . contentstore.tasks.import_olx
+  . contentstore.tasks.push_course_update_task
+  . contentstore.tasks.rerun_course
+  . contentstore.tasks.task_scrape_youtube_thumbnail
+  . contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . contentstore.tasks.task_status_callback
+  . contentstore.tasks.update_library_index
+  . contentstore.tasks.update_search_index
+  . edx_sga.tasks.zip_student_submissions
+  . entitlements.tasks.expire_old_entitlements
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credit.tasks.update_credit_course_requirements
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._recurring_nudge_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._upgrade_reminder_schedule_send
+  . openedx.core.djangoapps.schedules.tasks.update_course_schedules
+  . openedx.core.djangoapps.service_status.tasks.delayed_ping
+  . openedx.core.djangoapps.verified_track_content.tasks.sync_cohort_with_mode
+  . student.tasks.send_activation_email
+  . user_tasks.tasks.purge_old_user_tasks
+
+ 
+ -------------- celery@edx.cms.core.default.josiah-VirtualBox v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-91-generic-x86_64-with-Ubuntu-16.04-xenial
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7f99f8a0ae10
+- ** ---------- .> transport:   amqp://celery:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default exchange=edx.cms.core(direct) key=edx.cms.core.default
+                
+
+[tasks]
+  . celery_utils.tasks.mark_resolved
+  . cms.djangoapps.contentstore.tasks.CourseExportTask
+  . cms.djangoapps.contentstore.tasks.CourseImportTask
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript_subtask
+  . cms.djangoapps.contentstore.tasks.export_olx
+  . cms.djangoapps.contentstore.tasks.import_olx
+  . cms.djangoapps.contentstore.tasks.push_course_update_task
+  . cms.djangoapps.contentstore.tasks.rerun_course
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . cms.djangoapps.contentstore.tasks.task_status_callback
+  . cms.djangoapps.contentstore.tasks.update_library_index
+  . cms.djangoapps.contentstore.tasks.update_search_index
+  . cms_user_tasks.tasks.send_task_complete_email
+  . contentstore.tasks.CourseExportTask
+  . contentstore.tasks.CourseImportTask
+  . contentstore.tasks.async_migrate_transcript
+  . contentstore.tasks.async_migrate_transcript_subtask
+  . contentstore.tasks.export_olx
+  . contentstore.tasks.import_olx
+  . contentstore.tasks.push_course_update_task
+  . contentstore.tasks.rerun_course
+  . contentstore.tasks.task_scrape_youtube_thumbnail
+  . contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . contentstore.tasks.task_status_callback
+  . contentstore.tasks.update_library_index
+  . contentstore.tasks.update_search_index
+  . edx_sga.tasks.zip_student_submissions
+  . entitlements.tasks.expire_old_entitlements
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credit.tasks.update_credit_course_requirements
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._recurring_nudge_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._upgrade_reminder_schedule_send
+  . openedx.core.djangoapps.schedules.tasks.update_course_schedules
+  . openedx.core.djangoapps.service_status.tasks.delayed_ping
+  . openedx.core.djangoapps.verified_track_content.tasks.sync_cohort_with_mode
+  . student.tasks.send_activation_email
+  . user_tasks.tasks.purge_old_user_tasks
+
+ 
+ -------------- celery@edx.cms.core.default.josiah-VirtualBox v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-91-generic-x86_64-with-Ubuntu-16.04-xenial
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7f0f8617de10
+- ** ---------- .> transport:   amqp://celery:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default exchange=edx.cms.core(direct) key=edx.cms.core.default
+                
+
+[tasks]
+  . celery_utils.tasks.mark_resolved
+  . cms.djangoapps.contentstore.tasks.CourseExportTask
+  . cms.djangoapps.contentstore.tasks.CourseImportTask
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript_subtask
+  . cms.djangoapps.contentstore.tasks.export_olx
+  . cms.djangoapps.contentstore.tasks.import_olx
+  . cms.djangoapps.contentstore.tasks.push_course_update_task
+  . cms.djangoapps.contentstore.tasks.rerun_course
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . cms.djangoapps.contentstore.tasks.task_status_callback
+  . cms.djangoapps.contentstore.tasks.update_library_index
+  . cms.djangoapps.contentstore.tasks.update_search_index
+  . cms_user_tasks.tasks.send_task_complete_email
+  . contentstore.tasks.CourseExportTask
+  . contentstore.tasks.CourseImportTask
+  . contentstore.tasks.async_migrate_transcript
+  . contentstore.tasks.async_migrate_transcript_subtask
+  . contentstore.tasks.export_olx
+  . contentstore.tasks.import_olx
+  . contentstore.tasks.push_course_update_task
+  . contentstore.tasks.rerun_course
+  . contentstore.tasks.task_scrape_youtube_thumbnail
+  . contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . contentstore.tasks.task_status_callback
+  . contentstore.tasks.update_library_index
+  . contentstore.tasks.update_search_index
+  . edx_sga.tasks.zip_student_submissions
+  . entitlements.tasks.expire_old_entitlements
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credit.tasks.update_credit_course_requirements
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._recurring_nudge_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._upgrade_reminder_schedule_send
+  . openedx.core.djangoapps.schedules.tasks.update_course_schedules
+  . openedx.core.djangoapps.service_status.tasks.delayed_ping
+  . openedx.core.djangoapps.verified_track_content.tasks.sync_cohort_with_mode
+  . student.tasks.send_activation_email
+  . user_tasks.tasks.purge_old_user_tasks
+
+ 
+ -------------- celery@edx.cms.core.default.josiah-VirtualBox v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-91-generic-x86_64-with-Ubuntu-16.04-xenial
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7f0126cb4e10
+- ** ---------- .> transport:   amqp://celery:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default exchange=edx.cms.core(direct) key=edx.cms.core.default
+                
+
+[tasks]
+  . celery_utils.tasks.mark_resolved
+  . cms.djangoapps.contentstore.tasks.CourseExportTask
+  . cms.djangoapps.contentstore.tasks.CourseImportTask
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript_subtask
+  . cms.djangoapps.contentstore.tasks.export_olx
+  . cms.djangoapps.contentstore.tasks.import_olx
+  . cms.djangoapps.contentstore.tasks.push_course_update_task
+  . cms.djangoapps.contentstore.tasks.rerun_course
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . cms.djangoapps.contentstore.tasks.task_status_callback
+  . cms.djangoapps.contentstore.tasks.update_library_index
+  . cms.djangoapps.contentstore.tasks.update_search_index
+  . cms_user_tasks.tasks.send_task_complete_email
+  . contentstore.tasks.CourseExportTask
+  . contentstore.tasks.CourseImportTask
+  . contentstore.tasks.async_migrate_transcript
+  . contentstore.tasks.async_migrate_transcript_subtask
+  . contentstore.tasks.export_olx
+  . contentstore.tasks.import_olx
+  . contentstore.tasks.push_course_update_task
+  . contentstore.tasks.rerun_course
+  . contentstore.tasks.task_scrape_youtube_thumbnail
+  . contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . contentstore.tasks.task_status_callback
+  . contentstore.tasks.update_library_index
+  . contentstore.tasks.update_search_index
+  . edx_sga.tasks.zip_student_submissions
+  . entitlements.tasks.expire_old_entitlements
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credit.tasks.update_credit_course_requirements
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._recurring_nudge_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._upgrade_reminder_schedule_send
+  . openedx.core.djangoapps.schedules.tasks.update_course_schedules
+  . openedx.core.djangoapps.service_status.tasks.delayed_ping
+  . openedx.core.djangoapps.verified_track_content.tasks.sync_cohort_with_mode
+  . student.tasks.send_activation_email
+  . user_tasks.tasks.purge_old_user_tasks
+
+ 
+ -------------- celery@edx.cms.core.default.josiah-VirtualBox v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-91-generic-x86_64-with-Ubuntu-16.04-xenial
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7f07554f6e10
+- ** ---------- .> transport:   amqp://celery:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default exchange=edx.cms.core(direct) key=edx.cms.core.default
+                
+
+[tasks]
+  . celery_utils.tasks.mark_resolved
+  . cms.djangoapps.contentstore.tasks.CourseExportTask
+  . cms.djangoapps.contentstore.tasks.CourseImportTask
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript_subtask
+  . cms.djangoapps.contentstore.tasks.export_olx
+  . cms.djangoapps.contentstore.tasks.import_olx
+  . cms.djangoapps.contentstore.tasks.push_course_update_task
+  . cms.djangoapps.contentstore.tasks.rerun_course
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . cms.djangoapps.contentstore.tasks.task_status_callback
+  . cms.djangoapps.contentstore.tasks.update_library_index
+  . cms.djangoapps.contentstore.tasks.update_search_index
+  . cms_user_tasks.tasks.send_task_complete_email
+  . contentstore.tasks.CourseExportTask
+  . contentstore.tasks.CourseImportTask
+  . contentstore.tasks.async_migrate_transcript
+  . contentstore.tasks.async_migrate_transcript_subtask
+  . contentstore.tasks.export_olx
+  . contentstore.tasks.import_olx
+  . contentstore.tasks.push_course_update_task
+  . contentstore.tasks.rerun_course
+  . contentstore.tasks.task_scrape_youtube_thumbnail
+  . contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . contentstore.tasks.task_status_callback
+  . contentstore.tasks.update_library_index
+  . contentstore.tasks.update_search_index
+  . edx_sga.tasks.zip_student_submissions
+  . entitlements.tasks.expire_old_entitlements
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credit.tasks.update_credit_course_requirements
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._recurring_nudge_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._upgrade_reminder_schedule_send
+  . openedx.core.djangoapps.schedules.tasks.update_course_schedules
+  . openedx.core.djangoapps.service_status.tasks.delayed_ping
+  . openedx.core.djangoapps.verified_track_content.tasks.sync_cohort_with_mode
+  . student.tasks.send_activation_email
+  . user_tasks.tasks.purge_old_user_tasks
+
+ 
+ -------------- celery@edx.cms.core.default.josiah-VirtualBox v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-91-generic-x86_64-with-Ubuntu-16.04-xenial
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7f2ac4d31e10
+- ** ---------- .> transport:   amqp://celery:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default exchange=edx.cms.core(direct) key=edx.cms.core.default
+                
+
+[tasks]
+  . celery_utils.tasks.mark_resolved
+  . cms.djangoapps.contentstore.tasks.CourseExportTask
+  . cms.djangoapps.contentstore.tasks.CourseImportTask
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript
+  . cms.djangoapps.contentstore.tasks.async_migrate_transcript_subtask
+  . cms.djangoapps.contentstore.tasks.export_olx
+  . cms.djangoapps.contentstore.tasks.import_olx
+  . cms.djangoapps.contentstore.tasks.push_course_update_task
+  . cms.djangoapps.contentstore.tasks.rerun_course
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail
+  . cms.djangoapps.contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . cms.djangoapps.contentstore.tasks.task_status_callback
+  . cms.djangoapps.contentstore.tasks.update_library_index
+  . cms.djangoapps.contentstore.tasks.update_search_index
+  . cms_user_tasks.tasks.send_task_complete_email
+  . contentstore.tasks.CourseExportTask
+  . contentstore.tasks.CourseImportTask
+  . contentstore.tasks.async_migrate_transcript
+  . contentstore.tasks.async_migrate_transcript_subtask
+  . contentstore.tasks.export_olx
+  . contentstore.tasks.import_olx
+  . contentstore.tasks.push_course_update_task
+  . contentstore.tasks.rerun_course
+  . contentstore.tasks.task_scrape_youtube_thumbnail
+  . contentstore.tasks.task_scrape_youtube_thumbnail_callback
+  . contentstore.tasks.task_status_callback
+  . contentstore.tasks.update_library_index
+  . contentstore.tasks.update_search_index
+  . edx_sga.tasks.zip_student_submissions
+  . entitlements.tasks.expire_old_entitlements
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credit.tasks.update_credit_course_requirements
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._recurring_nudge_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._upgrade_reminder_schedule_send
+  . openedx.core.djangoapps.schedules.tasks.update_course_schedules
+  . openedx.core.djangoapps.service_status.tasks.delayed_

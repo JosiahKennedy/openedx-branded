@@ -1,0 +1,627 @@
+2020-03-24 19:11:41,247 WARN No file matches via include "/edx/app/supervisor/conf.d/*.conf"
+2020-03-24 19:11:41,257 INFO RPC interface 'supervisor' initialized
+2020-03-24 19:11:41,258 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2020-03-24 19:11:41,258 INFO RPC interface 'supervisor' initialized
+2020-03-24 19:11:41,258 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-03-24 19:11:41,259 INFO daemonizing the supervisord process
+2020-03-24 19:11:41,260 INFO supervisord started with pid 2236
+2020-03-24 19:26:04,379 INFO spawned: 'cms_default_1' with pid 18874
+2020-03-24 19:26:04,382 INFO spawned: 'cms_high_1' with pid 18875
+2020-03-24 19:26:04,385 INFO spawned: 'lms_high_mem_1' with pid 18876
+2020-03-24 19:26:04,389 INFO spawned: 'lms_high_1' with pid 18877
+2020-03-24 19:26:04,391 INFO spawned: 'lms_default_1' with pid 18878
+2020-03-24 19:26:05,393 INFO success: cms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:26:05,394 INFO success: cms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:26:05,394 INFO success: lms_high_mem_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:26:05,394 INFO success: lms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:26:05,394 INFO success: lms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:26:10,006 INFO waiting for cms_default_1 to stop
+2020-03-24 19:26:10,024 INFO stopped: cms_default_1 (terminated by SIGTERM)
+2020-03-24 19:26:10,039 INFO spawned: 'cms_default_1' with pid 19113
+2020-03-24 19:26:11,041 INFO success: cms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:26:11,303 INFO waiting for cms_high_1 to stop
+2020-03-24 19:26:11,333 INFO stopped: cms_high_1 (terminated by SIGTERM)
+2020-03-24 19:26:11,339 INFO spawned: 'cms_high_1' with pid 19135
+2020-03-24 19:26:12,341 INFO success: cms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:26:12,624 INFO waiting for lms_default_1 to stop
+2020-03-24 19:26:12,653 INFO stopped: lms_default_1 (terminated by SIGTERM)
+2020-03-24 19:26:12,662 INFO spawned: 'lms_default_1' with pid 19143
+2020-03-24 19:26:13,715 INFO success: lms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:26:13,987 INFO waiting for lms_high_1 to stop
+2020-03-24 19:26:14,000 INFO stopped: lms_high_1 (terminated by SIGTERM)
+2020-03-24 19:26:14,008 INFO spawned: 'lms_high_1' with pid 19161
+2020-03-24 19:26:15,128 INFO success: lms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:26:15,388 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 19:26:15,410 INFO stopped: lms_high_mem_1 (terminated by SIGTERM)
+2020-03-24 19:26:15,415 INFO spawned: 'lms_high_mem_1' with pid 19220
+2020-03-24 19:26:16,417 INFO success: lms_high_mem_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:35:42,455 INFO spawned: 'cms' with pid 31866
+2020-03-24 19:35:42,459 INFO spawned: 'lms' with pid 31867
+2020-03-24 19:35:43,528 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:35:43,528 INFO success: cms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:35:46,977 INFO waiting for lms to stop
+2020-03-24 19:35:46,977 INFO stopped: lms (terminated by SIGTERM)
+2020-03-24 19:35:46,982 INFO spawned: 'lms' with pid 32172
+2020-03-24 19:35:47,985 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:35:49,117 INFO waiting for cms to stop
+2020-03-24 19:35:49,117 INFO stopped: cms (terminated by SIGTERM)
+2020-03-24 19:35:49,122 INFO spawned: 'cms' with pid 32202
+2020-03-24 19:35:50,124 INFO success: cms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:35:55,970 INFO exited: lms (exit status 1; not expected)
+2020-03-24 19:35:56,458 INFO spawned: 'lms' with pid 32272
+2020-03-24 19:35:57,340 INFO exited: cms (exit status 1; not expected)
+2020-03-24 19:35:58,341 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:35:58,343 INFO spawned: 'cms' with pid 32395
+2020-03-24 19:36:00,064 INFO success: cms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:36:06,722 INFO exited: lms (exit status 1; not expected)
+2020-03-24 19:36:07,724 INFO spawned: 'lms' with pid 619
+2020-03-24 19:36:08,725 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:36:09,001 INFO exited: cms (exit status 1; not expected)
+2020-03-24 19:36:10,004 INFO spawned: 'cms' with pid 753
+2020-03-24 19:36:11,005 INFO success: cms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:36:17,573 INFO exited: lms (exit status 1; not expected)
+2020-03-24 19:36:18,581 INFO spawned: 'lms' with pid 812
+2020-03-24 19:36:19,588 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:44:00,335 INFO spawned: 'ecommerce' with pid 27782
+2020-03-24 19:44:01,754 INFO success: ecommerce entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:44:32,273 INFO waiting for ecommerce to stop
+2020-03-24 19:44:32,279 INFO stopped: ecommerce (terminated by SIGTERM)
+2020-03-24 19:44:32,283 INFO spawned: 'ecommerce' with pid 29112
+2020-03-24 19:44:33,611 INFO success: ecommerce entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:45:28,782 INFO spawned: 'ecomworker' with pid 31033
+2020-03-24 19:45:29,785 INFO success: ecomworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:45:30,527 INFO stopped: ecomworker (terminated by SIGTERM)
+2020-03-24 19:45:30,531 INFO spawned: 'ecomworker' with pid 31108
+2020-03-24 19:45:31,533 INFO success: ecomworker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:49:51,995 INFO spawned: 'analytics_api' with pid 20011
+2020-03-24 19:49:53,360 INFO success: analytics_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:49:55,453 INFO stopped: analytics_api (terminated by SIGTERM)
+2020-03-24 19:49:55,457 INFO spawned: 'analytics_api' with pid 20391
+2020-03-24 19:49:56,701 INFO success: analytics_api entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:54:35,303 INFO spawned: 'insights' with pid 25054
+2020-03-24 19:54:36,643 INFO success: insights entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 19:54:37,767 INFO waiting for insights to stop
+2020-03-24 19:54:37,767 INFO stopped: insights (terminated by SIGTERM)
+2020-03-24 19:54:37,772 INFO spawned: 'insights' with pid 25296
+2020-03-24 19:54:38,816 INFO success: insights entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 20:09:58,607 INFO spawned: 'forum' with pid 5094
+2020-03-24 20:10:00,109 INFO success: forum entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 20:13:40,126 INFO spawned: 'discovery' with pid 9044
+2020-03-24 20:13:41,549 INFO success: discovery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 20:14:02,371 INFO waiting for discovery to stop
+2020-03-24 20:14:02,371 INFO stopped: discovery (terminated by SIGTERM)
+2020-03-24 20:14:02,377 INFO spawned: 'discovery' with pid 9494
+2020-03-24 20:14:03,729 INFO success: discovery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 20:15:12,095 INFO spawned: 'notifier-celery-workers' with pid 12438
+2020-03-24 20:15:12,100 INFO spawned: 'notifier-scheduler' with pid 12439
+2020-03-24 20:15:12,462 INFO waiting for notifier-scheduler to stop
+2020-03-24 20:15:12,463 INFO stopped: notifier-scheduler (terminated by SIGTERM)
+2020-03-24 20:15:12,469 INFO spawned: 'notifier-scheduler' with pid 12449
+2020-03-24 20:15:22,308 INFO success: notifier-celery-workers entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2020-03-24 20:15:23,313 INFO success: notifier-scheduler entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2020-03-24 20:15:23,952 INFO waiting for notifier-celery-workers to stop
+2020-03-24 20:15:25,952 INFO waiting for notifier-celery-workers to stop
+2020-03-24 20:15:27,952 INFO waiting for notifier-celery-workers to stop
+2020-03-24 20:15:29,952 INFO waiting for notifier-celery-workers to stop
+2020-03-24 20:15:31,953 INFO waiting for notifier-celery-workers to stop
+2020-03-24 20:15:33,952 WARN killing 'notifier-celery-workers' (12438) with SIGKILL
+2020-03-24 20:15:33,955 INFO waiting for notifier-celery-workers to stop
+2020-03-24 20:15:33,961 INFO stopped: notifier-celery-workers (terminated by SIGKILL)
+2020-03-24 20:15:33,965 INFO spawned: 'notifier-celery-workers' with pid 12531
+2020-03-24 20:15:44,092 INFO success: notifier-celery-workers entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2020-03-24 20:16:52,394 INFO spawned: 'xqueue' with pid 14081
+2020-03-24 20:16:52,398 INFO spawned: 'xqueue_consumer' with pid 14082
+2020-03-24 20:16:53,046 INFO success: xqueue_consumer entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2020-03-24 20:16:53,498 INFO success: xqueue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 20:16:55,342 INFO waiting for xqueue to stop
+2020-03-24 20:16:55,490 INFO stopped: xqueue (exit status 0)
+2020-03-24 20:16:55,494 INFO spawned: 'xqueue' with pid 14232
+2020-03-24 20:16:57,206 INFO success: xqueue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 20:16:58,019 INFO waiting for xqueue_consumer to stop
+2020-03-24 20:16:58,022 INFO stopped: xqueue_consumer (terminated by SIGTERM)
+2020-03-24 20:16:58,029 INFO spawned: 'xqueue_consumer' with pid 14276
+2020-03-24 20:16:58,029 INFO success: xqueue_consumer entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2020-03-24 20:17:49,035 INFO spawned: 'certs' with pid 15656
+2020-03-24 20:17:50,102 INFO success: certs entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 20:17:51,322 INFO waiting for certs to stop
+2020-03-24 20:17:51,327 INFO stopped: certs (terminated by SIGTERM)
+2020-03-24 20:17:51,331 INFO spawned: 'certs' with pid 15773
+2020-03-24 20:17:53,301 INFO success: certs entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 20:18:55,204 INFO waiting for forum to stop
+2020-03-24 20:18:55,562 INFO stopped: forum (exit status 1)
+2020-03-24 20:18:55,567 INFO spawned: 'forum' with pid 18236
+2020-03-24 20:18:56,569 INFO success: forum entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 21:25:06,222 INFO stopped: lms (terminated by SIGTERM)
+2020-03-24 21:25:06,250 INFO spawned: 'lms' with pid 24199
+2020-03-24 21:25:07,255 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 21:25:13,483 INFO waiting for cms to stop
+2020-03-24 21:25:13,483 INFO stopped: cms (terminated by SIGTERM)
+2020-03-24 21:25:13,509 INFO spawned: 'cms' with pid 24223
+2020-03-24 21:25:14,518 INFO success: cms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 21:25:18,585 INFO exited: lms (exit status 1; not expected)
+2020-03-24 21:25:19,597 INFO spawned: 'lms' with pid 24253
+2020-03-24 21:25:21,057 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 21:25:23,513 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:23,514 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:23,514 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:23,514 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:23,514 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:25,768 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:25,768 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:25,769 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:25,769 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:25,769 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:28,486 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:28,487 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:28,487 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:28,487 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:28,487 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:30,499 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:30,499 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:30,499 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:30,500 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:30,500 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:33,110 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:33,111 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:33,111 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:33,111 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:33,111 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:35,118 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:35,118 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:35,118 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:35,118 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:35,118 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:37,447 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:37,448 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:37,448 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:37,448 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:37,448 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:39,462 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:39,463 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:39,463 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:39,463 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:39,463 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:41,469 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:41,469 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:41,469 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:41,469 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:41,469 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:43,666 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:43,666 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:43,666 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:43,666 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:43,667 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:45,673 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:53,797 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:53,797 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:53,797 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:53,797 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:53,802 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:55,809 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:55,810 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:55,810 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:55,810 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:55,810 INFO waiting for lms_default_1 to stop
+2020-03-24 21:25:57,816 INFO waiting for cms_default_1 to stop
+2020-03-24 21:25:57,816 INFO waiting for cms_high_1 to stop
+2020-03-24 21:25:57,816 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:25:57,816 INFO waiting for lms_high_1 to stop
+2020-03-24 21:25:57,816 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:00,303 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:00,303 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:00,303 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:00,303 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:00,303 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:02,315 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:02,316 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:02,316 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:02,316 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:02,316 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:04,329 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:04,330 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:04,330 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:04,330 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:04,330 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:06,577 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:06,577 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:06,577 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:06,578 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:06,578 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:08,586 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:08,586 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:08,586 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:08,586 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:08,586 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:11,589 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:11,589 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:11,589 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:11,590 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:11,590 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:13,604 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:13,604 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:13,604 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:13,604 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:13,604 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:15,612 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:15,613 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:15,613 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:15,613 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:15,613 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:18,089 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:18,089 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:18,089 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:18,090 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:18,090 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:20,096 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:20,097 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:20,097 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:20,097 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:20,097 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:22,256 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:22,258 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:22,258 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:22,258 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:22,259 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:24,265 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:24,265 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:24,265 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:24,265 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:24,265 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:26,272 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:26,272 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:26,272 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:26,272 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:26,273 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:28,280 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:28,280 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:28,280 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:28,280 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:28,281 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:30,286 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:32,105 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:32,107 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:32,107 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:32,108 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:33,113 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:34,116 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:34,116 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:34,116 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:34,117 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:35,120 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:36,784 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:36,785 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:36,785 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:36,785 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:37,788 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:38,792 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:38,792 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:38,793 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:38,793 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:39,796 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:40,799 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:40,799 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:40,799 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:40,799 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:42,088 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:43,092 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:43,092 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:43,092 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:43,092 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:44,096 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:45,100 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:45,100 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:45,101 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:45,101 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:46,104 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:47,302 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:47,302 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:47,302 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:47,302 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:48,306 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:49,309 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:49,309 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:49,309 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:49,309 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:50,312 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:51,316 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:51,316 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:51,316 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:51,316 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:52,461 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:53,466 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:53,466 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:53,467 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:53,467 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:54,470 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:55,477 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:55,478 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:55,478 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:55,478 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:56,497 INFO waiting for cms_default_1 to stop
+2020-03-24 21:26:57,659 INFO waiting for cms_high_1 to stop
+2020-03-24 21:26:57,659 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 21:26:57,659 INFO waiting for lms_high_1 to stop
+2020-03-24 21:26:57,659 INFO waiting for lms_default_1 to stop
+2020-03-24 21:26:57,953 INFO stopped: cms_default_1 (exit status 0)
+2020-03-24 21:26:58,199 INFO stopped: cms_high_1 (exit status 0)
+2020-03-24 21:26:59,583 INFO stopped: lms_high_1 (exit status 0)
+2020-03-24 21:26:59,779 INFO stopped: lms_high_mem_1 (exit status 0)
+2020-03-24 21:26:59,780 INFO waiting for lms_default_1 to stop
+2020-03-24 21:27:00,266 INFO stopped: lms_default_1 (exit status 0)
+2020-03-24 21:27:00,342 INFO spawned: 'cms_default_1' with pid 24918
+2020-03-24 21:27:00,422 INFO spawned: 'cms_high_1' with pid 24919
+2020-03-24 21:27:00,546 INFO spawned: 'lms_high_mem_1' with pid 24920
+2020-03-24 21:27:00,593 INFO spawned: 'lms_high_1' with pid 24921
+2020-03-24 21:27:00,655 INFO spawned: 'lms_default_1' with pid 24922
+2020-03-24 21:27:01,705 INFO success: cms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 21:27:01,707 INFO success: cms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 21:27:01,707 INFO success: lms_high_mem_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 21:27:01,707 INFO success: lms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 21:27:01,707 INFO success: lms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:00:26,881 INFO stopped: lms (terminated by SIGTERM)
+2020-03-24 22:00:27,008 INFO spawned: 'lms' with pid 13438
+2020-03-24 22:00:28,195 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:00:30,461 INFO waiting for cms to stop
+2020-03-24 22:00:30,493 INFO stopped: cms (terminated by SIGTERM)
+2020-03-24 22:00:30,737 INFO spawned: 'cms' with pid 13442
+2020-03-24 22:00:31,768 INFO success: cms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:00:39,619 INFO exited: lms (exit status 1; not expected)
+2020-03-24 22:00:40,263 INFO spawned: 'lms' with pid 13503
+2020-03-24 22:00:41,275 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:00:41,853 INFO waiting for cms_default_1 to stop
+2020-03-24 22:00:41,854 INFO waiting for cms_high_1 to stop
+2020-03-24 22:00:41,854 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:00:41,854 INFO waiting for lms_high_1 to stop
+2020-03-24 22:00:41,864 INFO waiting for lms_default_1 to stop
+2020-03-24 22:00:43,954 INFO waiting for cms_default_1 to stop
+2020-03-24 22:00:43,954 INFO waiting for cms_high_1 to stop
+2020-03-24 22:00:43,954 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:00:43,954 INFO waiting for lms_high_1 to stop
+2020-03-24 22:00:43,954 INFO waiting for lms_default_1 to stop
+2020-03-24 22:00:46,458 INFO waiting for cms_default_1 to stop
+2020-03-24 22:00:46,458 INFO waiting for cms_high_1 to stop
+2020-03-24 22:00:46,458 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:00:46,459 INFO waiting for lms_high_1 to stop
+2020-03-24 22:00:46,459 INFO waiting for lms_default_1 to stop
+2020-03-24 22:00:47,340 INFO stopped: lms_high_mem_1 (exit status 0)
+2020-03-24 22:00:47,887 INFO stopped: cms_high_1 (exit status 0)
+2020-03-24 22:00:48,300 INFO stopped: lms_high_1 (exit status 0)
+2020-03-24 22:00:48,558 INFO stopped: lms_default_1 (exit status 0)
+2020-03-24 22:00:48,559 INFO waiting for cms_default_1 to stop
+2020-03-24 22:00:49,589 INFO stopped: cms_default_1 (exit status 0)
+2020-03-24 22:00:50,642 INFO spawned: 'cms_default_1' with pid 13574
+2020-03-24 22:00:50,747 INFO spawned: 'cms_high_1' with pid 13576
+2020-03-24 22:00:50,858 INFO spawned: 'lms_high_mem_1' with pid 13578
+2020-03-24 22:00:50,957 INFO spawned: 'lms_high_1' with pid 13579
+2020-03-24 22:00:51,011 INFO spawned: 'lms_default_1' with pid 13583
+2020-03-24 22:00:52,085 INFO success: cms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:00:52,086 INFO success: cms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:00:52,086 INFO success: lms_high_mem_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:00:52,086 INFO success: lms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:00:52,086 INFO success: lms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:57:38,248 INFO waiting for lms to stop
+2020-03-24 22:57:38,307 INFO stopped: lms (terminated by SIGTERM)
+2020-03-24 22:57:38,462 INFO spawned: 'lms' with pid 15325
+2020-03-24 22:57:39,481 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:57:47,174 INFO stopped: cms (terminated by SIGTERM)
+2020-03-24 22:57:47,324 INFO spawned: 'cms' with pid 15348
+2020-03-24 22:57:48,331 INFO success: cms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:57:49,679 INFO exited: lms (exit status 1; not expected)
+2020-03-24 22:57:50,688 INFO spawned: 'lms' with pid 15352
+2020-03-24 22:57:52,002 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:58:28,960 INFO waiting for cms_default_1 to stop
+2020-03-24 22:58:28,961 INFO waiting for cms_high_1 to stop
+2020-03-24 22:58:29,028 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:58:29,033 INFO waiting for lms_high_1 to stop
+2020-03-24 22:58:29,034 INFO waiting for lms_default_1 to stop
+2020-03-24 22:58:31,619 INFO waiting for cms_default_1 to stop
+2020-03-24 22:58:31,620 INFO waiting for cms_high_1 to stop
+2020-03-24 22:58:31,620 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:58:31,620 INFO waiting for lms_high_1 to stop
+2020-03-24 22:58:31,620 INFO waiting for lms_default_1 to stop
+2020-03-24 22:58:33,915 INFO waiting for cms_default_1 to stop
+2020-03-24 22:58:33,916 INFO waiting for cms_high_1 to stop
+2020-03-24 22:58:33,916 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:58:33,916 INFO waiting for lms_high_1 to stop
+2020-03-24 22:58:33,916 INFO waiting for lms_default_1 to stop
+2020-03-24 22:58:35,924 INFO waiting for cms_default_1 to stop
+2020-03-24 22:58:35,924 INFO waiting for cms_high_1 to stop
+2020-03-24 22:58:35,925 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:58:35,925 INFO waiting for lms_high_1 to stop
+2020-03-24 22:58:35,925 INFO waiting for lms_default_1 to stop
+2020-03-24 22:58:37,938 INFO waiting for cms_default_1 to stop
+2020-03-24 22:58:37,938 INFO waiting for cms_high_1 to stop
+2020-03-24 22:58:37,938 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:58:37,938 INFO waiting for lms_high_1 to stop
+2020-03-24 22:58:37,939 INFO waiting for lms_default_1 to stop
+2020-03-24 22:58:40,242 INFO waiting for cms_default_1 to stop
+2020-03-24 22:58:40,242 INFO waiting for cms_high_1 to stop
+2020-03-24 22:58:40,242 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:58:40,243 INFO waiting for lms_high_1 to stop
+2020-03-24 22:58:40,243 INFO waiting for lms_default_1 to stop
+2020-03-24 22:58:42,251 INFO waiting for cms_default_1 to stop
+2020-03-24 22:58:42,251 INFO waiting for cms_high_1 to stop
+2020-03-24 22:58:42,251 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:58:42,251 INFO waiting for lms_high_1 to stop
+2020-03-24 22:58:42,251 INFO waiting for lms_default_1 to stop
+2020-03-24 22:58:44,338 INFO waiting for cms_default_1 to stop
+2020-03-24 22:58:44,339 INFO waiting for cms_high_1 to stop
+2020-03-24 22:58:44,339 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:58:44,339 INFO waiting for lms_high_1 to stop
+2020-03-24 22:58:44,339 INFO waiting for lms_default_1 to stop
+2020-03-24 22:58:46,345 INFO waiting for cms_default_1 to stop
+2020-03-24 22:58:46,345 INFO waiting for cms_high_1 to stop
+2020-03-24 22:58:46,345 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:58:46,345 INFO waiting for lms_high_1 to stop
+2020-03-24 22:58:46,345 INFO waiting for lms_default_1 to stop
+2020-03-24 22:58:48,352 INFO waiting for cms_default_1 to stop
+2020-03-24 22:58:48,352 INFO waiting for cms_high_1 to stop
+2020-03-24 22:58:48,352 INFO waiting for lms_high_mem_1 to stop
+2020-03-24 22:58:48,352 INFO waiting for lms_high_1 to stop
+2020-03-24 22:58:48,352 INFO waiting for lms_default_1 to stop
+2020-03-24 22:58:49,464 INFO stopped: cms_high_1 (exit status 0)
+2020-03-24 22:58:49,880 INFO stopped: lms_high_mem_1 (exit status 0)
+2020-03-24 22:58:49,899 INFO stopped: lms_default_1 (exit status 0)
+2020-03-24 22:58:50,787 INFO waiting for cms_default_1 to stop
+2020-03-24 22:58:50,787 INFO waiting for lms_high_1 to stop
+2020-03-24 22:58:50,797 INFO stopped: cms_default_1 (exit status 0)
+2020-03-24 22:58:51,166 INFO stopped: lms_high_1 (exit status 0)
+2020-03-24 22:58:51,314 INFO spawned: 'cms_default_1' with pid 15986
+2020-03-24 22:58:51,410 INFO spawned: 'cms_high_1' with pid 15988
+2020-03-24 22:58:51,503 INFO spawned: 'lms_high_mem_1' with pid 15990
+2020-03-24 22:58:51,597 INFO spawned: 'lms_high_1' with pid 15992
+2020-03-24 22:58:51,652 INFO spawned: 'lms_default_1' with pid 15994
+2020-03-24 22:58:52,674 INFO success: cms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:58:52,674 INFO success: cms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:58:52,674 INFO success: lms_high_mem_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:58:52,674 INFO success: lms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-24 22:58:52,674 INFO success: lms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 00:08:25,905 INFO stopped: lms (terminated by SIGTERM)
+2020-03-25 00:08:26,133 INFO spawned: 'lms' with pid 20884
+2020-03-25 00:08:27,177 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 00:08:30,868 INFO stopped: cms (terminated by SIGTERM)
+2020-03-25 00:08:30,992 INFO spawned: 'cms' with pid 20898
+2020-03-25 00:08:32,081 INFO success: cms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 00:08:36,051 INFO exited: lms (exit status 1; not expected)
+2020-03-25 00:08:36,149 INFO spawned: 'lms' with pid 20928
+2020-03-25 00:08:37,178 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 00:08:39,484 INFO waiting for cms_default_1 to stop
+2020-03-25 00:08:39,484 INFO waiting for cms_high_1 to stop
+2020-03-25 00:08:39,484 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 00:08:39,484 INFO waiting for lms_high_1 to stop
+2020-03-25 00:08:39,484 INFO waiting for lms_default_1 to stop
+2020-03-25 00:08:42,402 INFO waiting for cms_default_1 to stop
+2020-03-25 00:08:42,402 INFO waiting for cms_high_1 to stop
+2020-03-25 00:08:42,402 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 00:08:42,403 INFO waiting for lms_high_1 to stop
+2020-03-25 00:08:42,403 INFO waiting for lms_default_1 to stop
+2020-03-25 00:08:44,411 INFO waiting for cms_default_1 to stop
+2020-03-25 00:08:44,411 INFO waiting for cms_high_1 to stop
+2020-03-25 00:08:44,411 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 00:08:44,413 INFO waiting for lms_high_1 to stop
+2020-03-25 00:08:44,413 INFO waiting for lms_default_1 to stop
+2020-03-25 00:08:46,420 INFO waiting for cms_default_1 to stop
+2020-03-25 00:08:46,420 INFO waiting for cms_high_1 to stop
+2020-03-25 00:08:46,420 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 00:08:46,420 INFO waiting for lms_high_1 to stop
+2020-03-25 00:08:46,420 INFO waiting for lms_default_1 to stop
+2020-03-25 00:08:48,466 INFO waiting for cms_default_1 to stop
+2020-03-25 00:08:48,466 INFO waiting for cms_high_1 to stop
+2020-03-25 00:08:48,466 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 00:08:48,466 INFO waiting for lms_high_1 to stop
+2020-03-25 00:08:48,467 INFO waiting for lms_default_1 to stop
+2020-03-25 00:08:48,482 INFO stopped: cms_high_1 (exit status 0)
+2020-03-25 00:08:48,716 INFO stopped: lms_default_1 (exit status 0)
+2020-03-25 00:08:48,850 INFO stopped: cms_default_1 (exit status 0)
+2020-03-25 00:08:48,889 INFO stopped: lms_high_1 (exit status 0)
+2020-03-25 00:08:49,178 INFO stopped: lms_high_mem_1 (exit status 0)
+2020-03-25 00:08:50,243 INFO spawned: 'cms_default_1' with pid 21053
+2020-03-25 00:08:50,280 INFO spawned: 'cms_high_1' with pid 21054
+2020-03-25 00:08:50,371 INFO spawned: 'lms_high_mem_1' with pid 21055
+2020-03-25 00:08:50,435 INFO spawned: 'lms_high_1' with pid 21056
+2020-03-25 00:08:50,503 INFO spawned: 'lms_default_1' with pid 21057
+2020-03-25 00:08:51,534 INFO success: cms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 00:08:51,535 INFO success: cms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 00:08:51,535 INFO success: lms_high_mem_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 00:08:51,535 INFO success: lms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 00:08:51,535 INFO success: lms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 01:51:25,863 INFO stopped: lms (terminated by SIGTERM)
+2020-03-25 01:51:26,041 INFO spawned: 'lms' with pid 14958
+2020-03-25 01:51:27,076 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 01:51:29,884 INFO waiting for cms to stop
+2020-03-25 01:51:29,895 INFO stopped: cms (terminated by SIGTERM)
+2020-03-25 01:51:29,941 INFO spawned: 'cms' with pid 14971
+2020-03-25 01:51:30,955 INFO success: cms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 01:51:42,036 INFO waiting for cms_default_1 to stop
+2020-03-25 01:51:42,036 INFO waiting for cms_high_1 to stop
+2020-03-25 01:51:42,037 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 01:51:42,037 INFO waiting for lms_high_1 to stop
+2020-03-25 01:51:42,037 INFO waiting for lms_default_1 to stop
+2020-03-25 01:51:44,469 INFO waiting for cms_default_1 to stop
+2020-03-25 01:51:44,469 INFO waiting for cms_high_1 to stop
+2020-03-25 01:51:44,469 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 01:51:44,469 INFO waiting for lms_high_1 to stop
+2020-03-25 01:51:44,469 INFO waiting for lms_default_1 to stop
+2020-03-25 01:51:46,474 INFO waiting for cms_default_1 to stop
+2020-03-25 01:51:46,475 INFO waiting for cms_high_1 to stop
+2020-03-25 01:51:46,475 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 01:51:46,475 INFO waiting for lms_high_1 to stop
+2020-03-25 01:51:46,475 INFO waiting for lms_default_1 to stop
+2020-03-25 01:51:48,480 INFO waiting for cms_default_1 to stop
+2020-03-25 01:51:48,480 INFO waiting for cms_high_1 to stop
+2020-03-25 01:51:48,480 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 01:51:48,480 INFO waiting for lms_high_1 to stop
+2020-03-25 01:51:48,480 INFO waiting for lms_default_1 to stop
+2020-03-25 01:51:50,543 INFO waiting for cms_default_1 to stop
+2020-03-25 01:51:50,544 INFO waiting for cms_high_1 to stop
+2020-03-25 01:51:50,544 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 01:51:50,544 INFO waiting for lms_high_1 to stop
+2020-03-25 01:51:50,544 INFO waiting for lms_default_1 to stop
+2020-03-25 01:51:52,548 INFO waiting for cms_default_1 to stop
+2020-03-25 01:51:52,548 INFO waiting for cms_high_1 to stop
+2020-03-25 01:51:52,549 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 01:51:52,549 INFO waiting for lms_high_1 to stop
+2020-03-25 01:51:52,549 INFO waiting for lms_default_1 to stop
+2020-03-25 01:51:54,685 INFO waiting for cms_default_1 to stop
+2020-03-25 01:51:54,685 INFO waiting for cms_high_1 to stop
+2020-03-25 01:51:54,686 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 01:51:54,686 INFO waiting for lms_high_1 to stop
+2020-03-25 01:51:54,686 INFO waiting for lms_default_1 to stop
+2020-03-25 01:51:55,672 INFO stopped: lms_default_1 (exit status 0)
+2020-03-25 01:51:56,354 INFO stopped: cms_high_1 (exit status 0)
+2020-03-25 01:51:56,736 INFO stopped: lms_high_1 (exit status 0)
+2020-03-25 01:51:56,737 INFO waiting for cms_default_1 to stop
+2020-03-25 01:51:56,737 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 01:51:56,975 INFO stopped: lms_high_mem_1 (exit status 0)
+2020-03-25 01:51:57,533 INFO stopped: cms_default_1 (exit status 0)
+2020-03-25 01:51:57,548 INFO spawned: 'cms_default_1' with pid 15137
+2020-03-25 01:51:57,664 INFO spawned: 'cms_high_1' with pid 15138
+2020-03-25 01:51:57,725 INFO spawned: 'lms_high_mem_1' with pid 15139
+2020-03-25 01:51:57,783 INFO spawned: 'lms_high_1' with pid 15140
+2020-03-25 01:51:57,821 INFO spawned: 'lms_default_1' with pid 15141
+2020-03-25 01:51:58,795 INFO success: cms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 01:51:58,795 INFO success: cms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 01:51:58,795 INFO success: lms_high_mem_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 01:51:58,796 INFO success: lms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 01:51:58,796 INFO success: lms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 02:22:49,260 INFO waiting for lms to stop
+2020-03-25 02:22:49,288 INFO stopped: lms (terminated by SIGTERM)
+2020-03-25 02:22:49,442 INFO spawned: 'lms' with pid 4208
+2020-03-25 02:22:50,496 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 02:22:53,660 INFO waiting for cms to stop
+2020-03-25 02:22:53,661 INFO stopped: cms (terminated by SIGTERM)
+2020-03-25 02:22:53,695 INFO spawned: 'cms' with pid 4218
+2020-03-25 02:22:54,705 INFO success: cms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 02:23:00,530 INFO exited: lms (exit status 1; not expected)
+2020-03-25 02:23:01,975 INFO spawned: 'lms' with pid 4314
+2020-03-25 02:23:03,032 INFO success: lms entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 02:23:07,086 INFO waiting for cms_default_1 to stop
+2020-03-25 02:23:07,086 INFO waiting for cms_high_1 to stop
+2020-03-25 02:23:07,086 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 02:23:07,086 INFO waiting for lms_high_1 to stop
+2020-03-25 02:23:07,086 INFO waiting for lms_default_1 to stop
+2020-03-25 02:23:09,401 INFO waiting for cms_default_1 to stop
+2020-03-25 02:23:09,401 INFO waiting for cms_high_1 to stop
+2020-03-25 02:23:09,401 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 02:23:09,401 INFO waiting for lms_high_1 to stop
+2020-03-25 02:23:09,401 INFO waiting for lms_default_1 to stop
+2020-03-25 02:23:11,407 INFO waiting for cms_default_1 to stop
+2020-03-25 02:23:11,407 INFO waiting for cms_high_1 to stop
+2020-03-25 02:23:11,407 INFO waiting for lms_high_mem_1 to stop
+2020-03-25 02:23:11,407 INFO waiting for lms_high_1 to stop
+2020-03-25 02:23:11,407 INFO waiting for lms_default_1 to stop
+2020-03-25 02:23:12,101 INFO stopped: lms_default_1 (exit status 0)
+2020-03-25 02:23:12,790 INFO stopped: lms_high_1 (exit status 0)
+2020-03-25 02:23:12,807 INFO stopped: cms_default_1 (exit status 0)
+2020-03-25 02:23:12,814 INFO stopped: lms_high_mem_1 (exit status 0)
+2020-03-25 02:23:13,145 INFO stopped: cms_high_1 (exit status 0)
+2020-03-25 02:23:13,323 INFO spawned: 'cms_default_1' with pid 4656
+2020-03-25 02:23:13,384 INFO spawned: 'cms_high_1' with pid 4657
+2020-03-25 02:23:13,432 INFO spawned: 'lms_high_mem_1' with pid 4658
+2020-03-25 02:23:13,495 INFO spawned: 'lms_high_1' with pid 4662
+2020-03-25 02:23:13,601 INFO spawned: 'lms_default_1' with pid 4664
+2020-03-25 02:23:14,686 INFO success: cms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 02:23:14,686 INFO success: cms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 02:23:14,687 INFO success: lms_high_mem_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 02:23:14,687 INFO success: lms_high_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-03-25 02:23:14,687 INFO success: lms_default_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

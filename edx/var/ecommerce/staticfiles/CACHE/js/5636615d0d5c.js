@@ -1,0 +1,1 @@
+;require(['jquery','pages/coupon_offer_page'],function($,CouponOfferPage){'use strict';new CouponOfferPage({el:$('#offer')});});;require(['jquery','routers/offer_router'],function($,OfferRouter){'use strict';$(function(){var $app=$('#offerApp'),offerApp=new OfferRouter({$el:$app});offerApp.start();});});

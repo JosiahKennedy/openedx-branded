@@ -1,0 +1,36 @@
+/edx/app/forum/.gem/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:52: warning: constant ::Fixnum is deprecated
+/edx/app/forum/.gem/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:54: warning: constant ::Fixnum is deprecated
+I, [2020-03-24T20:10:02.076397 #5149]  INFO -- : Passed: Alias 'content' exists with up-to-date mappings.
+I, [2020-03-24T20:10:02.084398 #5149]  INFO -- : Refreshing Gem list
+`Rack::Timeout.timeout=`: class-level settings are deprecated. See README for examples on using the middleware initializer instead.
+I, [2020-03-24T20:10:02.107207 #5149]  INFO -- : listening on addr=/edx/var/forum/forum.sock fd=12
+I, [2020-03-24T20:10:02.107469 #5149]  INFO -- : worker=0 spawning...
+I, [2020-03-24T20:10:02.114349 #5149]  INFO -- : worker=1 spawning...
+I, [2020-03-24T20:10:02.118923 #5149]  INFO -- : worker=2 spawning...
+I, [2020-03-24T20:10:02.122193 #5544]  INFO -- : worker=1 ready
+I, [2020-03-24T20:10:02.122533 #5541]  INFO -- : worker=0 ready
+I, [2020-03-24T20:10:02.124639 #5149]  INFO -- : worker=3 spawning...
+I, [2020-03-24T20:10:02.128017 #5149]  INFO -- : master process ready
+I, [2020-03-24T20:10:02.131265 #5547]  INFO -- : worker=2 ready
+I, [2020-03-24T20:10:02.134679 #5549]  INFO -- : worker=3 ready
+I, [2020-03-24T20:18:55.486054 #5149]  INFO -- : reaped #<Process::Status: pid 5541 exit 0> worker=0
+I, [2020-03-24T20:18:55.514014 #5149]  INFO -- : reaped #<Process::Status: pid 5544 exit 0> worker=1
+I, [2020-03-24T20:18:55.514128 #5149]  INFO -- : reaped #<Process::Status: pid 5547 exit 0> worker=2
+I, [2020-03-24T20:18:55.514169 #5149]  INFO -- : reaped #<Process::Status: pid 5549 exit 0> worker=3
+I, [2020-03-24T20:18:55.514237 #5149]  INFO -- : master complete
+/edx/app/forum/.gem/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:52: warning: constant ::Fixnum is deprecated
+/edx/app/forum/.gem/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:54: warning: constant ::Fixnum is deprecated
+I, [2020-03-24T20:19:00.105650 #18268]  INFO -- : Passed: Alias 'content' exists with up-to-date mappings.
+I, [2020-03-24T20:19:00.106727 #18268]  INFO -- : Refreshing Gem list
+`Rack::Timeout.timeout=`: class-level settings are deprecated. See README for examples on using the middleware initializer instead.
+I, [2020-03-24T20:19:00.122798 #18268]  INFO -- : unlinking existing socket=/edx/var/forum/forum.sock
+I, [2020-03-24T20:19:00.123040 #18268]  INFO -- : listening on addr=/edx/var/forum/forum.sock fd=12
+I, [2020-03-24T20:19:00.123151 #18268]  INFO -- : worker=0 spawning...
+I, [2020-03-24T20:19:00.124976 #18268]  INFO -- : worker=1 spawning...
+I, [2020-03-24T20:19:00.127431 #18323]  INFO -- : worker=0 ready
+I, [2020-03-24T20:19:00.127702 #18268]  INFO -- : worker=2 spawning...
+I, [2020-03-24T20:19:00.130366 #18268]  INFO -- : worker=3 spawning...
+I, [2020-03-24T20:19:00.132025 #18329]  INFO -- : worker=2 ready
+I, [2020-03-24T20:19:00.132000 #18326]  INFO -- : worker=1 ready
+I, [2020-03-24T20:19:00.132226 #18268]  INFO -- : master process ready
+I, [2020-03-24T20:19:00.134434 #18332]  INFO -- : worker=3 ready

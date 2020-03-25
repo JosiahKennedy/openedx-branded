@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/edx/app/discovery/nodeenvs/discovery/lib/node_modules
+export NPM_CONFIG_PREFIX=/edx/app/discovery/nodeenvs/discovery
+export npm_config_prefix=/edx/app/discovery/nodeenvs/discovery
+exec /edx/app/discovery/nodeenvs/discovery/bin/node "$@"

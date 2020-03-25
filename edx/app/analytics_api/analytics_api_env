@@ -1,0 +1,5 @@
+# This file is created and updated by ansible, edit at your peril
+
+export PATH="/edx/app/analytics_api/nodeenvs/analytics_api/bin:/edx/app/analytics_api/venvs/analytics_api/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+export ANALYTICS_API_CFG="/edx/etc/analytics_api.yml"
+export DJANGO_SETTINGS_MODULE="analyticsdataserver.settings.production"

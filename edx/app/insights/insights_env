@@ -1,0 +1,6 @@
+# This file is created and updated by ansible, edit at your peril
+
+export ANALYTICS_DASHBOARD_CFG="/edx/etc/insights.yml"
+export THEME_SCSS="sass/themes/open-edx.scss"
+export DJANGO_SETTINGS_MODULE="analytics_dashboard.settings.production"
+export PATH="/edx/app/insights/nodeenvs/insights/bin:/edx/app/insights/venvs/insights/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"

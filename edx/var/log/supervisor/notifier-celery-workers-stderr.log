@@ -1,0 +1,372 @@
+2020-03-24 23:15:12,742 [WARNING] [service_name=notifier] [base] /edx/app/notifier/virtualenvs/notifier/local/lib/python2.7/site-packages/django/core/management/base.py:260: RemovedInDjango19Warning: "requires_model_validation" is deprecated in favor of "requires_system_checks".
+  RemovedInDjango19Warning)
+
+2020-03-24 23:15:12,869 [WARNING] [service_name=notifier] [worker] /edx/app/notifier/virtualenvs/notifier/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-03-24 23:15:12,901 [INFO] [service_name=notifier] [consumer] Connected to django://localhost//
+2020-03-24 23:15:12,940 [WARNING] [service_name=notifier] [log] celery@josiah-VirtualBox ready.
+
+worker: Warm shutdown (MainProcess)
+[2020-03-24 23:15:24,343: ERROR/MainProcess] Process 'Worker-4' pid:12464 exited with 'signal 15 (SIGTERM)'
+[2020-03-24 23:15:24,343: ERROR/MainProcess] Process 'Worker-3' pid:12463 exited with 'signal 15 (SIGTERM)'
+[2020-03-24 23:15:24,343: ERROR/MainProcess] Process 'Worker-2' pid:12462 exited with 'signal 15 (SIGTERM)'
+[2020-03-24 23:15:24,343: ERROR/MainProcess] Process 'Worker-1' pid:12461 exited with 'signal 15 (SIGTERM)'
+2020-03-24 23:15:34,472 [WARNING] [service_name=notifier] [base] /edx/app/notifier/virtualenvs/notifier/local/lib/python2.7/site-packages/django/core/management/base.py:260: RemovedInDjango19Warning: "requires_model_validation" is deprecated in favor of "requires_system_checks".
+  RemovedInDjango19Warning)
+
+2020-03-24 23:15:34,579 [WARNING] [service_name=notifier] [worker] /edx/app/notifier/virtualenvs/notifier/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-03-24 23:15:34,605 [INFO] [service_name=notifier] [consumer] Connected to django://localhost//
+2020-03-24 23:15:34,623 [WARNING] [service_name=notifier] [log] celery@josiah-VirtualBox ready.
+2020-03-24 23:20:00,555 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[f5db77e0-fb2d-4ac4-8e31-ad3279cbd553]
+2020-03-24 23:20:00,587 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-24 23:15:00 to_dt=2020-03-24 23:20:00
+2020-03-24 23:20:00,587 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-24 23:20:02,005 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[f5db77e0-fb2d-4ac4-8e31-ad3279cbd553] succeeded in 1.438558927s: None
+2020-03-24 23:25:01,424 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[8f8273da-3aff-41c5-8b34-bbc3470750e4]
+2020-03-24 23:25:01,446 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-24 23:20:00 to_dt=2020-03-24 23:25:00
+2020-03-24 23:25:01,447 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-24 23:25:02,393 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[8f8273da-3aff-41c5-8b34-bbc3470750e4] succeeded in 0.967819865999s: None
+2020-03-24 23:30:01,913 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[ef4fc687-a5aa-44d4-b77c-cb2847ba608f]
+2020-03-24 23:30:02,137 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-24 23:25:00 to_dt=2020-03-24 23:30:00
+2020-03-24 23:30:02,140 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-24 23:30:03,156 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[ef4fc687-a5aa-44d4-b77c-cb2847ba608f] succeeded in 1.242093686s: None
+2020-03-24 23:35:02,480 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[9a150fe7-18ad-4b07-9be2-09eb0a136428]
+2020-03-24 23:35:02,507 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-24 23:30:00 to_dt=2020-03-24 23:35:00
+2020-03-24 23:35:02,508 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-24 23:35:04,228 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[9a150fe7-18ad-4b07-9be2-09eb0a136428] succeeded in 1.745558676s: None
+2020-03-24 23:40:03,161 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[e90814e3-5ad2-46db-93df-d2e6e360e6fe]
+2020-03-24 23:40:03,169 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-24 23:35:00 to_dt=2020-03-24 23:40:00
+2020-03-24 23:40:03,169 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-24 23:40:05,311 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[e90814e3-5ad2-46db-93df-d2e6e360e6fe] succeeded in 2.149126146s: None
+2020-03-24 23:45:03,878 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[7037848a-4e9d-4b8a-8e8c-c569bfc5fe5f]
+2020-03-24 23:45:03,890 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-24 23:40:00 to_dt=2020-03-24 23:45:00
+2020-03-24 23:45:03,890 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-24 23:45:03,933 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[7037848a-4e9d-4b8a-8e8c-c569bfc5fe5f] succeeded in 0.0536038379996s: None
+2020-03-24 23:50:04,668 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[d658d292-99c0-4ec4-9ccb-5391114ac8d5]
+2020-03-24 23:50:04,688 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-24 23:45:00 to_dt=2020-03-24 23:50:00
+2020-03-24 23:50:04,689 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-24 23:50:07,669 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[d658d292-99c0-4ec4-9ccb-5391114ac8d5] succeeded in 2.997983626s: None
+2020-03-24 23:55:00,649 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[40f3ac24-9c60-4e08-a1fe-27847c8fa782]
+2020-03-24 23:55:00,661 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-24 23:50:00 to_dt=2020-03-24 23:55:00
+2020-03-24 23:55:00,661 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-24 23:55:00,696 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[40f3ac24-9c60-4e08-a1fe-27847c8fa782] succeeded in 0.0444909910002s: None
+2020-03-25 00:00:01,559 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[3dc2df75-1d5c-4117-a283-9dcb21be942f]
+2020-03-25 00:00:01,622 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-24 23:55:00 to_dt=2020-03-25 00:00:00
+2020-03-25 00:00:01,623 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:00:10,196 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[3dc2df75-1d5c-4117-a283-9dcb21be942f] succeeded in 8.631272651s: None
+2020-03-25 00:05:02,575 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[5db7233a-ce12-4cb2-a70d-0108fe0f4539]
+2020-03-25 00:05:02,610 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:00:00 to_dt=2020-03-25 00:05:00
+2020-03-25 00:05:02,613 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:05:03,371 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[5db7233a-ce12-4cb2-a70d-0108fe0f4539] succeeded in 0.791097052999s: None
+2020-03-25 00:10:03,647 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[35630ff9-d0e0-4d52-aff9-da8acc3d9859]
+2020-03-25 00:10:03,677 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:05:00 to_dt=2020-03-25 00:10:00
+2020-03-25 00:10:03,677 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:10:03,788 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[35630ff9-d0e0-4d52-aff9-da8acc3d9859] succeeded in 0.133785287s: None
+2020-03-25 00:15:04,728 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[4a1c1f17-c4a2-4840-b1bf-b65160fe7fff]
+2020-03-25 00:15:04,815 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:10:00 to_dt=2020-03-25 00:15:00
+2020-03-25 00:15:04,818 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:15:05,077 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[4a1c1f17-c4a2-4840-b1bf-b65160fe7fff] succeeded in 0.293619696999s: None
+2020-03-25 00:20:00,650 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[96b017a3-189e-467f-a73d-f5280a59aea4]
+2020-03-25 00:20:00,667 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:15:00 to_dt=2020-03-25 00:20:00
+2020-03-25 00:20:00,668 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:20:01,313 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[96b017a3-189e-467f-a73d-f5280a59aea4] succeeded in 0.661540576999s: None
+2020-03-25 00:25:01,891 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[55afe547-f9ae-44a0-a310-615591b61e00]
+2020-03-25 00:25:01,913 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:20:00 to_dt=2020-03-25 00:25:00
+2020-03-25 00:25:01,913 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:25:02,015 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[55afe547-f9ae-44a0-a310-615591b61e00] succeeded in 0.117234199s: None
+2020-03-25 00:30:00,727 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[8c50299e-1070-4a3c-9c48-6d261465aab5]
+2020-03-25 00:30:00,818 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:25:00 to_dt=2020-03-25 00:30:00
+2020-03-25 00:30:00,822 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:30:09,170 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[8c50299e-1070-4a3c-9c48-6d261465aab5] succeeded in 8.435589883s: None
+2020-03-25 00:35:02,369 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[e45b5e9b-3814-40f8-832c-9cc53f52c3a9]
+2020-03-25 00:35:03,268 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:30:00 to_dt=2020-03-25 00:35:00
+2020-03-25 00:35:03,339 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:35:06,785 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[e45b5e9b-3814-40f8-832c-9cc53f52c3a9] succeeded in 4.237433193s: None
+2020-03-25 00:40:03,548 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[1a8197c0-533e-4542-a4ea-a63ee60278ef]
+2020-03-25 00:40:04,699 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:35:00 to_dt=2020-03-25 00:40:00
+2020-03-25 00:40:04,816 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:40:08,967 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[1a8197c0-533e-4542-a4ea-a63ee60278ef] succeeded in 5.052175149s: None
+2020-03-25 00:45:04,697 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[83dabb8e-728f-4c78-8311-c854c6fed411]
+2020-03-25 00:45:05,661 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:40:00 to_dt=2020-03-25 00:45:00
+2020-03-25 00:45:05,726 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:45:12,782 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[83dabb8e-728f-4c78-8311-c854c6fed411] succeeded in 7.862192518s: None
+2020-03-25 00:50:00,776 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[9b2584a9-ab5b-42fd-bf57-58cc9680f05e]
+2020-03-25 00:50:00,860 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:45:00 to_dt=2020-03-25 00:50:00
+2020-03-25 00:50:00,867 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:50:00,990 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[9b2584a9-ab5b-42fd-bf57-58cc9680f05e] succeeded in 0.201658370001s: None
+2020-03-25 00:55:02,083 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[417bfb61-5af0-48c1-bc02-feffb5055e32]
+2020-03-25 00:55:02,138 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:50:00 to_dt=2020-03-25 00:55:00
+2020-03-25 00:55:02,141 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 00:55:12,939 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[417bfb61-5af0-48c1-bc02-feffb5055e32] succeeded in 10.848592665s: None
+2020-03-25 01:00:03,778 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[f016e49d-fc6b-495f-817e-38c084d84816]
+2020-03-25 01:00:03,798 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 00:55:00 to_dt=2020-03-25 01:00:00
+2020-03-25 01:00:03,800 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:00:04,046 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[f016e49d-fc6b-495f-817e-38c084d84816] succeeded in 0.264749131s: None
+2020-03-25 01:05:02,025 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[6dd3c5e6-2c76-4c4f-81be-0ebacfed21be]
+2020-03-25 01:05:02,051 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:00:00 to_dt=2020-03-25 01:05:00
+2020-03-25 01:05:02,052 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:05:03,427 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[6dd3c5e6-2c76-4c4f-81be-0ebacfed21be] succeeded in 1.388508953s: None
+2020-03-25 01:10:03,187 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[b5ea5262-789a-4d5c-bf31-4a7c7382a78e]
+2020-03-25 01:10:03,415 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:05:00 to_dt=2020-03-25 01:10:00
+2020-03-25 01:10:03,415 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:10:04,533 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[b5ea5262-789a-4d5c-bf31-4a7c7382a78e] succeeded in 1.140438638s: None
+2020-03-25 01:15:03,820 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[b0a0086f-e0f2-4345-854f-665d470ba6a4]
+2020-03-25 01:15:03,838 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:10:00 to_dt=2020-03-25 01:15:00
+2020-03-25 01:15:03,839 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:15:05,446 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[b0a0086f-e0f2-4345-854f-665d470ba6a4] succeeded in 1.621108767s: None
+2020-03-25 01:20:04,498 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[97ec3516-5092-4177-acb2-f3e03f6521b8]
+2020-03-25 01:20:04,654 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:15:00 to_dt=2020-03-25 01:20:00
+2020-03-25 01:20:04,664 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:20:06,759 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[97ec3516-5092-4177-acb2-f3e03f6521b8] succeeded in 2.201662148s: None
+2020-03-25 01:25:00,389 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[86f8fd6f-0cef-4fff-acaf-f9bbf8db4bf6]
+2020-03-25 01:25:00,418 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:20:00 to_dt=2020-03-25 01:25:00
+2020-03-25 01:25:00,430 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:25:00,503 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[86f8fd6f-0cef-4fff-acaf-f9bbf8db4bf6] succeeded in 0.112110762s: None
+2020-03-25 01:30:01,630 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[ece4d400-8826-487b-82e5-a76ea1d2fe8c]
+2020-03-25 01:30:01,648 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:25:00 to_dt=2020-03-25 01:30:00
+2020-03-25 01:30:01,648 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:30:03,843 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[ece4d400-8826-487b-82e5-a76ea1d2fe8c] succeeded in 2.207632027s: None
+2020-03-25 01:35:02,902 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[bdd9ea63-0188-43cf-a294-ea5ab9318ae0]
+2020-03-25 01:35:02,936 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:30:00 to_dt=2020-03-25 01:35:00
+2020-03-25 01:35:02,938 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:35:03,426 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[bdd9ea63-0188-43cf-a294-ea5ab9318ae0] succeeded in 0.515970143999s: None
+2020-03-25 01:40:04,234 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[b06f1c0f-d806-434d-90fb-01ed458c0f6d]
+2020-03-25 01:40:04,280 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:35:00 to_dt=2020-03-25 01:40:00
+2020-03-25 01:40:04,281 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:40:11,169 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[b06f1c0f-d806-434d-90fb-01ed458c0f6d] succeeded in 6.929403154s: None
+2020-03-25 01:45:00,427 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[0308bf1b-331c-425e-bff9-487f3117690c]
+2020-03-25 01:45:00,462 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:40:00 to_dt=2020-03-25 01:45:00
+2020-03-25 01:45:00,463 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:45:00,630 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[0308bf1b-331c-425e-bff9-487f3117690c] succeeded in 0.197608806999s: None
+2020-03-25 01:50:01,953 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[9197a5f3-62b4-4734-a15a-f3d8a301f505]
+2020-03-25 01:50:02,009 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:45:00 to_dt=2020-03-25 01:50:00
+2020-03-25 01:50:02,019 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:50:03,360 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[9197a5f3-62b4-4734-a15a-f3d8a301f505] succeeded in 1.401862583s: None
+2020-03-25 01:55:03,174 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[7802fd3b-5ea3-49e0-b2ef-42bf58d2cd94]
+2020-03-25 01:55:03,232 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:50:00 to_dt=2020-03-25 01:55:00
+2020-03-25 01:55:03,233 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 01:55:03,576 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[7802fd3b-5ea3-49e0-b2ef-42bf58d2cd94] succeeded in 0.394112781001s: None
+2020-03-25 02:00:02,776 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[d6df017e-a8bd-4469-a697-dce851460096]
+2020-03-25 02:00:03,464 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 01:55:00 to_dt=2020-03-25 02:00:00
+2020-03-25 02:00:03,506 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:01:33,346 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[d6df017e-a8bd-4469-a697-dce851460096] succeeded in 90.243580751s: None
+2020-03-25 02:05:01,192 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[71783269-6c45-4a6d-bed9-7dd16e1706d0]
+2020-03-25 02:05:01,340 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:00:00 to_dt=2020-03-25 02:05:00
+2020-03-25 02:05:01,340 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:05:01,426 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[71783269-6c45-4a6d-bed9-7dd16e1706d0] succeeded in 0.182826894999s: None
+2020-03-25 02:10:02,427 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[b4ad7e36-6090-4453-8cfa-f9c38359ed7e]
+2020-03-25 02:10:03,501 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:05:00 to_dt=2020-03-25 02:10:00
+2020-03-25 02:10:03,538 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:10:03,905 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[b4ad7e36-6090-4453-8cfa-f9c38359ed7e] succeeded in 1.156234033s: None
+2020-03-25 02:15:04,051 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[485380f5-ce91-4e80-9f21-2fdb4085b66b]
+2020-03-25 02:15:04,536 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:10:00 to_dt=2020-03-25 02:15:00
+2020-03-25 02:15:04,593 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:15:10,343 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[485380f5-ce91-4e80-9f21-2fdb4085b66b] succeeded in 6.114882879s: None
+2020-03-25 02:20:00,740 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[64c60a5d-d33c-400a-b7b5-ad6c19eac317]
+2020-03-25 02:20:01,157 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:15:00 to_dt=2020-03-25 02:20:00
+2020-03-25 02:20:01,179 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:20:04,812 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[64c60a5d-d33c-400a-b7b5-ad6c19eac317] succeeded in 3.914589298s: None
+2020-03-25 02:25:02,475 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[662bd0c9-c4a4-4ebd-b55f-46fadd9de88f]
+2020-03-25 02:25:02,544 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:20:00 to_dt=2020-03-25 02:25:00
+2020-03-25 02:25:02,546 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:25:08,762 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[662bd0c9-c4a4-4ebd-b55f-46fadd9de88f] succeeded in 6.279501181s: None
+2020-03-25 02:30:04,081 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[43e99a0f-c304-43e0-a7f8-bc8491f96c08]
+2020-03-25 02:30:04,098 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:25:00 to_dt=2020-03-25 02:30:00
+2020-03-25 02:30:04,099 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:30:09,025 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[43e99a0f-c304-43e0-a7f8-bc8491f96c08] succeeded in 4.940430123s: None
+2020-03-25 02:35:00,852 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[41aa7b12-916b-4f7d-a22c-d195f3eb95e6]
+2020-03-25 02:35:00,912 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:30:00 to_dt=2020-03-25 02:35:00
+2020-03-25 02:35:00,916 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:35:10,520 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[41aa7b12-916b-4f7d-a22c-d195f3eb95e6] succeeded in 9.657358788s: None
+2020-03-25 02:40:02,575 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[1d47e0a2-5010-4f07-aee1-3457716ab389]
+2020-03-25 02:40:02,633 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:35:00 to_dt=2020-03-25 02:40:00
+2020-03-25 02:40:02,634 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:40:12,562 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[1d47e0a2-5010-4f07-aee1-3457716ab389] succeeded in 9.981184349s: None
+2020-03-25 02:45:04,601 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[4abaf2f8-1056-491a-b96f-8df0b013e1b5]
+2020-03-25 02:45:04,683 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:40:00 to_dt=2020-03-25 02:45:00
+2020-03-25 02:45:04,686 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:45:05,054 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[4abaf2f8-1056-491a-b96f-8df0b013e1b5] succeeded in 0.444871706997s: None
+2020-03-25 02:50:00,873 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[eeba68f9-7dab-4e16-bda5-ab575a77382f]
+2020-03-25 02:50:00,922 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:45:00 to_dt=2020-03-25 02:50:00
+2020-03-25 02:50:00,923 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:50:14,874 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[eeba68f9-7dab-4e16-bda5-ab575a77382f] succeeded in 13.993369125s: None
+2020-03-25 02:55:02,043 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[52aae912-310b-4025-91be-30a6d756bb20]
+2020-03-25 02:55:02,063 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:50:00 to_dt=2020-03-25 02:55:00
+2020-03-25 02:55:02,064 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 02:55:02,225 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[52aae912-310b-4025-91be-30a6d756bb20] succeeded in 0.178525666s: None
+2020-03-25 03:00:02,940 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[73940abc-6772-4f4c-b13d-1755ddf4c175]
+2020-03-25 03:00:02,972 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 02:55:00 to_dt=2020-03-25 03:00:00
+2020-03-25 03:00:02,974 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:00:10,224 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[73940abc-6772-4f4c-b13d-1755ddf4c175] succeeded in 7.280066808s: None
+2020-03-25 03:05:03,938 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[7366241d-2a96-43a1-8672-55da3c06ff7b]
+2020-03-25 03:05:03,959 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:00:00 to_dt=2020-03-25 03:05:00
+2020-03-25 03:05:03,960 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:05:04,141 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[7366241d-2a96-43a1-8672-55da3c06ff7b] succeeded in 0.199892144999s: None
+2020-03-25 03:10:00,650 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[09fab418-2b24-434b-8dda-7760ed4f1ec4]
+2020-03-25 03:10:00,697 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:05:00 to_dt=2020-03-25 03:10:00
+2020-03-25 03:10:00,699 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:11:26,622 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[09fab418-2b24-434b-8dda-7760ed4f1ec4] succeeded in 85.965575656s: None
+2020-03-25 03:15:03,243 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[945c85b9-115a-4f5f-8557-1eb1344beb7b]
+2020-03-25 03:15:03,863 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:10:00 to_dt=2020-03-25 03:15:00
+2020-03-25 03:15:03,885 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:15:06,406 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[945c85b9-115a-4f5f-8557-1eb1344beb7b] succeeded in 2.795185886s: None
+2020-03-25 03:20:05,074 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[66579237-acb2-4b1b-a8d9-6ae954ae4ae7]
+2020-03-25 03:20:05,676 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:15:00 to_dt=2020-03-25 03:20:00
+2020-03-25 03:20:05,703 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:20:12,964 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[66579237-acb2-4b1b-a8d9-6ae954ae4ae7] succeeded in 7.674747763s: None
+2020-03-25 03:25:02,299 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[dabed082-7781-43d1-a8cc-47d5ae88ab2c]
+2020-03-25 03:25:02,693 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:20:00 to_dt=2020-03-25 03:25:00
+2020-03-25 03:25:02,723 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:25:11,589 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[dabed082-7781-43d1-a8cc-47d5ae88ab2c] succeeded in 9.141053516s: None
+2020-03-25 03:30:03,351 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[61f28adb-93c6-49b7-80fa-6c6a3f2e4cc5]
+2020-03-25 03:30:03,643 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:25:00 to_dt=2020-03-25 03:30:00
+2020-03-25 03:30:03,671 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:30:04,020 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[61f28adb-93c6-49b7-80fa-6c6a3f2e4cc5] succeeded in 0.564538680002s: None
+2020-03-25 03:35:04,695 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[60e3f177-3991-4bc5-9ef9-dc1dacc9224d]
+2020-03-25 03:35:04,855 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:30:00 to_dt=2020-03-25 03:35:00
+2020-03-25 03:35:04,860 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:35:05,478 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[60e3f177-3991-4bc5-9ef9-dc1dacc9224d] succeeded in 0.775787932998s: None
+2020-03-25 03:40:01,246 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[da146182-9d09-4c9a-97a6-31d5c2378fe6]
+2020-03-25 03:40:01,325 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:35:00 to_dt=2020-03-25 03:40:00
+2020-03-25 03:40:01,327 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:40:01,520 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[da146182-9d09-4c9a-97a6-31d5c2378fe6] succeeded in 0.262855176999s: None
+2020-03-25 03:45:02,856 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[3fa44b6a-efdb-41c7-aa19-d39a6ee7bb4c]
+2020-03-25 03:45:02,943 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:40:00 to_dt=2020-03-25 03:45:00
+2020-03-25 03:45:02,946 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:45:03,468 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[3fa44b6a-efdb-41c7-aa19-d39a6ee7bb4c] succeeded in 0.599322280999s: None
+2020-03-25 03:50:04,333 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[a6240c01-a62f-454b-9568-be48d7a1976d]
+2020-03-25 03:50:04,372 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:45:00 to_dt=2020-03-25 03:50:00
+2020-03-25 03:50:04,373 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:50:12,730 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[a6240c01-a62f-454b-9568-be48d7a1976d] succeeded in 8.392082825s: None
+2020-03-25 03:55:00,501 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[2861dde0-214e-4d1e-b914-a1eb85989c56]
+2020-03-25 03:55:00,535 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:50:00 to_dt=2020-03-25 03:55:00
+2020-03-25 03:55:00,537 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 03:55:00,686 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[2861dde0-214e-4d1e-b914-a1eb85989c56] succeeded in 0.183576161999s: None
+2020-03-25 04:00:01,966 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[2fd4431f-7064-4b5b-a2b0-f580302dc8e4]
+2020-03-25 04:00:02,001 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 03:55:00 to_dt=2020-03-25 04:00:00
+2020-03-25 04:00:02,002 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:00:08,333 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[2fd4431f-7064-4b5b-a2b0-f580302dc8e4] succeeded in 6.358916576s: None
+2020-03-25 04:05:03,051 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[55ade208-5d1c-4605-9712-409008eacc8d]
+2020-03-25 04:05:03,108 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:00:00 to_dt=2020-03-25 04:05:00
+2020-03-25 04:05:03,110 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:05:03,562 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[55ade208-5d1c-4605-9712-409008eacc8d] succeeded in 0.503814152002s: None
+2020-03-25 04:10:04,194 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[f4533d5a-3d79-4679-ae1f-f7d8610bcb29]
+2020-03-25 04:10:04,210 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:05:00 to_dt=2020-03-25 04:10:00
+2020-03-25 04:10:04,210 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:10:08,074 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[f4533d5a-3d79-4679-ae1f-f7d8610bcb29] succeeded in 3.878725075s: None
+2020-03-25 04:15:04,996 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[0ade047e-fd46-4ec6-93b0-6b8ad24e8878]
+2020-03-25 04:15:05,027 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:10:00 to_dt=2020-03-25 04:15:00
+2020-03-25 04:15:05,030 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:15:05,134 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[0ade047e-fd46-4ec6-93b0-6b8ad24e8878] succeeded in 0.131161048001s: None
+2020-03-25 04:20:01,392 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[9fca57dc-aa20-4969-84ee-417e24d7a221]
+2020-03-25 04:20:01,409 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:15:00 to_dt=2020-03-25 04:20:00
+2020-03-25 04:20:01,410 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:20:05,094 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[9fca57dc-aa20-4969-84ee-417e24d7a221] succeeded in 3.699760335s: None
+2020-03-25 04:25:02,651 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[71eed30c-a45a-4f83-8779-99c39105c63d]
+2020-03-25 04:25:02,666 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:20:00 to_dt=2020-03-25 04:25:00
+2020-03-25 04:25:02,666 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:25:02,715 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[71eed30c-a45a-4f83-8779-99c39105c63d] succeeded in 0.0605572810018s: None
+2020-03-25 04:30:04,286 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[71aeed05-54da-4e3b-a9da-5acc49f7ee5e]
+2020-03-25 04:30:04,333 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:25:00 to_dt=2020-03-25 04:30:00
+2020-03-25 04:30:04,334 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:30:04,518 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[71aeed05-54da-4e3b-a9da-5acc49f7ee5e] succeeded in 0.216711721998s: None
+2020-03-25 04:35:00,448 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[451b56c8-019a-4a55-96d7-d325c9cfd85d]
+2020-03-25 04:35:00,466 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:30:00 to_dt=2020-03-25 04:35:00
+2020-03-25 04:35:00,466 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:35:00,524 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[451b56c8-019a-4a55-96d7-d325c9cfd85d] succeeded in 0.0722639809974s: None
+2020-03-25 04:40:01,282 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[be4b7ff3-c7f3-4aeb-90a1-8bfc4e44263a]
+2020-03-25 04:40:01,302 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:35:00 to_dt=2020-03-25 04:40:00
+2020-03-25 04:40:01,304 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:40:01,382 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[be4b7ff3-c7f3-4aeb-90a1-8bfc4e44263a] succeeded in 0.098625052s: None
+2020-03-25 04:45:02,130 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[ed18910f-203e-47d4-9758-4575c5262179]
+2020-03-25 04:45:02,157 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:40:00 to_dt=2020-03-25 04:45:00
+2020-03-25 04:45:02,158 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:45:08,326 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[ed18910f-203e-47d4-9758-4575c5262179] succeeded in 6.184638859s: None
+2020-03-25 04:50:03,237 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[4cad742e-127a-4c4a-9341-c4abc6415ffa]
+2020-03-25 04:50:03,295 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:45:00 to_dt=2020-03-25 04:50:00
+2020-03-25 04:50:03,296 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:50:03,406 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[4cad742e-127a-4c4a-9341-c4abc6415ffa] succeeded in 0.163816741999s: None
+2020-03-25 04:55:05,212 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[62db4312-ceea-435a-b963-f7d4f5dc938d]
+2020-03-25 04:55:05,230 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:50:00 to_dt=2020-03-25 04:55:00
+2020-03-25 04:55:05,231 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 04:55:06,744 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[62db4312-ceea-435a-b963-f7d4f5dc938d] succeeded in 1.528067461s: None
+2020-03-25 05:00:01,234 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[b92f550f-9346-448b-9228-ac4e570e817c]
+2020-03-25 05:00:01,775 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 04:55:00 to_dt=2020-03-25 05:00:00
+2020-03-25 05:00:01,792 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 05:00:04,878 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[b92f550f-9346-448b-9228-ac4e570e817c] succeeded in 3.424079792s: None
+2020-03-25 05:05:02,378 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[0456bd7e-debc-4e12-a49f-685a62daca79]
+2020-03-25 05:05:03,084 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 05:00:00 to_dt=2020-03-25 05:05:00
+2020-03-25 05:05:03,094 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 05:05:03,371 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[0456bd7e-debc-4e12-a49f-685a62daca79] succeeded in 0.400920307999s: None
+2020-03-25 05:10:03,840 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[bb61a15f-1819-408d-9567-427d31a6c3d6]
+2020-03-25 05:10:04,135 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 05:05:00 to_dt=2020-03-25 05:10:00
+2020-03-25 05:10:04,155 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 05:10:04,755 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[bb61a15f-1819-408d-9567-427d31a6c3d6] succeeded in 0.767831697001s: None
+2020-03-25 05:15:04,749 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[385fd619-c16a-456c-9d75-4772cd85f831]
+2020-03-25 05:15:04,872 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 05:10:00 to_dt=2020-03-25 05:15:00
+2020-03-25 05:15:04,874 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 05:15:12,818 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[385fd619-c16a-456c-9d75-4772cd85f831] succeeded in 7.986292343s: None
+2020-03-25 05:20:00,679 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[7e2fb8da-2603-48b0-8f00-0e8f00491ccb]
+2020-03-25 05:20:00,695 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 05:15:00 to_dt=2020-03-25 05:20:00
+2020-03-25 05:20:00,696 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 05:20:07,455 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[7e2fb8da-2603-48b0-8f00-0e8f00491ccb] succeeded in 6.77359798s: None
+2020-03-25 05:25:04,043 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[55126e76-c67d-4968-9025-50b9a9ad7c12]
+2020-03-25 05:25:04,376 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 05:20:00 to_dt=2020-03-25 05:25:00
+2020-03-25 05:25:04,385 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 05:26:09,904 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[55126e76-c67d-4968-9025-50b9a9ad7c12] succeeded in 65.76680502s: None
+2020-03-25 05:30:01,744 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[c04407fd-a1ef-4cf5-b7a5-67930efe9b0a]
+2020-03-25 05:30:02,111 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 05:25:00 to_dt=2020-03-25 05:30:00
+2020-03-25 05:30:02,115 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 05:30:04,203 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[c04407fd-a1ef-4cf5-b7a5-67930efe9b0a] succeeded in 2.321521917s: None
+2020-03-25 05:35:02,900 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[4cc6b867-6987-4fd9-8a6a-52c7ccf4823e]
+2020-03-25 05:35:03,332 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 05:30:00 to_dt=2020-03-25 05:35:00
+2020-03-25 05:35:03,355 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 05:35:03,634 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[4cc6b867-6987-4fd9-8a6a-52c7ccf4823e] succeeded in 0.52914848s: None
+2020-03-25 05:40:03,996 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[2e571137-58e0-4c44-87b4-0f8a05838635]
+2020-03-25 05:40:04,422 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 05:35:00 to_dt=2020-03-25 05:40:00
+2020-03-25 05:40:04,435 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 05:40:07,344 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[2e571137-58e0-4c44-87b4-0f8a05838635] succeeded in 3.043926873s: None
+2020-03-25 05:45:05,504 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[adc20a8b-fc9b-474c-9d0d-38e85a377038]
+2020-03-25 05:45:06,198 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 05:40:00 to_dt=2020-03-25 05:45:00
+2020-03-25 05:45:06,292 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 05:45:07,405 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[adc20a8b-fc9b-474c-9d0d-38e85a377038] succeeded in 1.68878651s: None
+2020-03-25 05:50:01,714 [INFO] [service_name=notifier] [strategy] Received task: notifier.tasks.do_forums_digests[1f32d1de-6272-46c4-95de-400bd1a88ce6]
+2020-03-25 05:50:01,754 [INFO] [service_name=notifier] [tasks] Beginning forums digest task: from_dt=2020-03-25 05:45:00 to_dt=2020-03-25 05:50:00
+2020-03-25 05:50:01,755 [INFO] [service_name=notifier] [user] calling user api for digest subscribers
+2020-03-25 05:50:09,051 [INFO] [service_name=notifier] [job] Task notifier.tasks.do_forums_digests[1f32d1de-6272-46c4-95de-400bd1a88ce6] succeeded in 7.327808463s: None

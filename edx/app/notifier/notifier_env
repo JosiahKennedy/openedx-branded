@@ -1,0 +1,37 @@
+# This file is created and updated by ansible, edit at your peril
+
+# Note this is used directly by the scheduler but not
+# by the workers.  Worker environment is set in supervisor
+# config.
+export DATADOG_API_KEY="SPECIFY_KEY_HERE"
+export REQUESTS_CA_BUNDLE="/etc/ssl/certs/ca-certificates.crt"
+export US_HTTP_AUTH_PASS="o5Y9YsIQHM7TeGeyLGj8Lh4geh1ltZwSkCO"
+export EMAIL_PORT="25"
+export NOTIFIER_ENV="Development"
+export FORUM_DIGEST_TASK_RATE_LIMIT="60/m"
+export BOTO_CONFIG="/edx/app/notifier/.boto"
+export SECRET_KEY="qW5q6pB6dG9DvGxellbzVZs0R7zSmqRnaT1zG6e8Y2pFj77thJndDopGTflcIGOCMVyecUA6B3Sw5rCSi0NwaY4mlv4XfzpLaaed"
+export BROKER_URL="django://"
+export CS_API_KEY="tSdFdKe7P9MzexaTinI4GHyKl6MZSn3o9oF"
+export LOG_LEVEL="INFO"
+export EMAIL_BACKEND="console"
+export LOGO_IMAGE_URL="http://localhost:8000/static/images/default-theme/logo.png"
+export CS_URL_BASE="http://localhost:18080"
+export EMAIL_HOST_PASSWORD="MnIpJf8FPsZJu3iVUnFkP35ooVjdcMcjzqv"
+export US_API_KEY="PUT_YOUR_API_KEY_HERE"
+export FORUM_DIGEST_EMAIL_SENDER="notifications@example.com"
+export FORUM_DIGEST_TASK_BATCH_SIZE="5"
+export FORUM_DIGEST_EMAIL_DESCRIPTION="A digest of unread content from course discussions you are following."
+export FORUM_DIGEST_TASK_INTERVAL="5"
+export RSYSLOG_ENABLED="yes"
+export NOTIFIER_DATABASE_ENGINE="django.db.backends.sqlite3"
+export FORUM_DIGEST_EMAIL_SUBJECT="Daily Discussion Digest"
+export EMAIL_HOST="localhost"
+export NOTIFIER_LANGUAGE="en"
+export LMS_URL_BASE="http://localhost:8000"
+export NOTIFIER_DATABASE_NAME="/edx/app/notifier/db/notifier.db"
+export FORUM_DIGEST_EMAIL_TITLE="Discussion Digest"
+export US_URL_BASE="http://localhost:8000"
+
+export DJANGO_SETTINGS_MODULE=notifier.settings_local
+

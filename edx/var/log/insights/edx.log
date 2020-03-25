@@ -1,0 +1,2 @@
+Mar 24 19:54:37 josiah-VirtualBox [service_variant=insights][gunicorn.error][env:no_env] INFO [josiah-VirtualBox  25104] [glogging.py:213] - Worker exiting (pid: 25104)
+Mar 24 19:54:37 josiah-VirtualBox [service_variant=insights][gunicorn.error][env:no_env] INFO [josiah-VirtualBox  25107] [glogging.py:213] - Worker exiting (pid: 25107)

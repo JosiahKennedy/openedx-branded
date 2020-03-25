@@ -1,0 +1,320 @@
+Mar 24 19:25:48 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  18130] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:25:48 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  18130] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:25:58 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  18261] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:25:58 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  18261] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:26:21 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  19113] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:26:21 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  19113] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:26:24 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  19135] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:26:24 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  19135] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:29:35 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  26630] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:29:35 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  26630] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:29:45 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  26765] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:29:45 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  26765] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:30:05 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  27186] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:30:05 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  27186] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:33:34 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  29894] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:33:34 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  29894] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:34:55 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  31010] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:34:55 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  31010] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:37:16 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  991] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:37:16 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  991] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:37:18 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  988] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:37:18 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  988] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:37:18 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  972] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:37:18 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  972] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:37:19 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  995] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:37:19 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  995] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:37:19 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  1007] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:37:19 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  1007] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:37:19 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  968] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:37:19 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  968] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:37:19 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  998] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:37:19 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  998] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:37:20 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  1002] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:37:20 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  1002] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:54:53 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  25531] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 19:54:53 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  25531] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 19:54:56 josiah-VirtualBox [service_variant=cms][py.warnings][env:sandbox] WARNING [josiah-VirtualBox  25531] [runtime.py:565] - /edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/x_module.py:1272: FieldDataDeprecationWarning: Passing field_data as a constructor argument to Runtimes is deprecated
+  super(ConfigurableFragmentWrapper, self).__init__(**kwargs)
+Mar 24 19:54:56 josiah-VirtualBox [service_variant=cms][edxval.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:678] - VAL: Video created with id [7d2626d0-5eb4-4f57-8e54-967531dcb643] and status [external]
+Mar 24 19:54:56 josiah-VirtualBox [service_variant=cms][edxval.api][env:sandbox] WARNING [josiah-VirtualBox  25531] [api.py:1132] - [edx-val] "en" transcript "subs_name_of_file.srt.sjson" for video "7d2626d0-5eb4-4f57-8e54-967531dcb643" is not found.
+Mar 24 19:54:56 josiah-VirtualBox [service_variant=cms][edxval.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:678] - VAL: Video created with id [239843af-51f6-42c9-bc11-da38fa757d6f] and status [external]
+Mar 24 19:54:56 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:56 josiah-VirtualBox [service_variant=cms][edxval.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:678] - VAL: Video created with id [da69d67b-5710-43bc-8b3e-c986d0a8712b] and status [external]
+Mar 24 19:54:56 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:56 josiah-VirtualBox [service_variant=cms][edxval.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:678] - VAL: Video created with id [61b12d2e-a01b-4ccc-bcd2-c918dcca0841] and status [external]
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][xmodule.vertical_block][env:sandbox] ERROR [josiah-VirtualBox  25531] [vertical_block.py:170] - Unable to load child when parsing Vertical. Continuing...
+Traceback (most recent call last):
+  File "/edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/vertical_block.py", line 167, in definition_from_xml
+    child_block = system.process_xml(etree.tostring(child, encoding='unicode'))
+  File "/edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/modulestore/xml.py", line 181, in process_xml
+    id_manager,
+  File "/edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 1620, in xblock_from_node
+    self._convert_reference_fields_to_keys(block)  # difference from XBlock.runtime
+  File "/edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 1665, in _convert_reference_fields_to_keys
+    field_value = getattr(xblock, field.name)
+  File "/edx/app/edxapp/venvs/edxapp/local/lib/python2.7/site-packages/xblock/fields.py", line 519, in __get__
+    value = self.from_json(field_data.get(xblock, self.name))
+  File "/edx/app/edxapp/venvs/edxapp/local/lib/python2.7/site-packages/xblock/fields.py", line 825, in from_json
+    raise TypeError('Value stored in a List must be None or a list, found %s' % type(value))
+TypeError: Value stored in a List must be None or a list, found <type 'str'>
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][edxval.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:678] - VAL: Video created with id [d9badddb-9fe3-4d62-a296-57ebb859d85f] and status [external]
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:57 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:58 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:58 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:58 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:58 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:54:58 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.mixed][env:sandbox] INFO [josiah-VirtualBox  25531] [mixed.py:657] - Creating course run course-v1:edX+DemoX+Demo_Course...
+Mar 24 19:54:58 josiah-VirtualBox [service_variant=cms][py.warnings][env:sandbox] WARNING [josiah-VirtualBox  25531] [__init__.py:1564] - /edx/app/edxapp/venvs/edxapp/local/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+Mar 24 19:54:58 josiah-VirtualBox [service_variant=cms][openedx.core.djangoapps.content.course_overviews.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:150] - Updating course overview for course-v1:edX+DemoX+Demo_Course.
+Mar 24 19:54:58 josiah-VirtualBox [service_variant=cms][openedx.core.djangoapps.content.course_overviews.signals][env:sandbox] INFO [josiah-VirtualBox  25531] [signals.py:69] - Course start date changed: course=course-v1:edX+DemoX+Demo_Course previous=2013-02-05T05:00:00+00:00 new=2030-01-01T00:00:00+00:00
+Mar 24 19:56:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function listen_for_course_publish at 0x7fdc0517ba28> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+Mar 24 19:56:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function _listen_for_course_publish at 0x7fdc04fdd938> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+Mar 24 19:56:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function _listen_for_course_publish at 0x7fdc04fdda28> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: [Errno 104] Connection reset by peer
+Mar 24 19:56:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function update_block_structure_on_course_publish at 0x7fdc04f73398> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: [Errno 104] Connection reset by peer
+Mar 24 19:56:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function _listen_for_course_publish at 0x7fdc04f73500> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+Mar 24 19:56:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function update_discussions_on_course_publish at 0x7fdc04f4c410> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: [Errno 104] Connection reset by peer
+Mar 24 19:56:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function trigger_update_xblocks_cache_task at 0x7fdc04ee8410> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: [Errno 104] Connection reset by peer
+Mar 24 19:56:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.mixed][env:sandbox] INFO [josiah-VirtualBox  25531] [mixed.py:665] - Course run course-v1:edX+DemoX+Demo_Course created successfully!
+Mar 24 19:56:04 josiah-VirtualBox [service_variant=cms][root][env:sandbox] ERROR [josiah-VirtualBox  25531] [content.py:461] - Failed to generate thumbnail for asset-v1:edX+DemoX+Demo_Course+type@asset+block@jsmol_1hxw.png. Exception: cannot identify image file <StringIO.StringIO instance at 0x7fdc045e1368>
+Traceback (most recent call last):
+  File "/edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/contentstore/content.py", line 440, in generate_thumbnail
+    with Image.open(source) as image:
+  File "/edx/app/edxapp/venvs/edxapp/local/lib/python2.7/site-packages/PIL/Image.py", line 2687, in open
+    % (filename if filename else fp))
+IOError: cannot identify image file <StringIO.StringIO instance at 0x7fdc045e1368>
+Mar 24 19:56:04 josiah-VirtualBox [service_variant=cms][root][env:sandbox] ERROR [josiah-VirtualBox  25531] [content.py:461] - Failed to generate thumbnail for asset-v1:edX+DemoX+Demo_Course+type@asset+block@jsmol_Al2O3.png. Exception: cannot identify image file <StringIO.StringIO instance at 0x7fdc045d56c8>
+Traceback (most recent call last):
+  File "/edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/contentstore/content.py", line 440, in generate_thumbnail
+    with Image.open(source) as image:
+  File "/edx/app/edxapp/venvs/edxapp/local/lib/python2.7/site-packages/PIL/Image.py", line 2687, in open
+    % (filename if filename else fp))
+IOError: cannot identify image file <StringIO.StringIO instance at 0x7fdc045d56c8>
+Mar 24 19:56:08 josiah-VirtualBox [service_variant=cms][root][env:sandbox] INFO [josiah-VirtualBox  25531] [xml_importer.py:352] - No assets.xml file is present with asset metadata.
+Mar 24 19:56:10 josiah-VirtualBox [service_variant=cms][openedx.core.djangoapps.content.course_overviews.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:150] - Updating course overview for course-v1:edX+DemoX+Demo_Course.
+Mar 24 19:56:10 josiah-VirtualBox [service_variant=cms][openedx.core.djangoapps.content.course_overviews.signals][env:sandbox] INFO [josiah-VirtualBox  25531] [signals.py:69] - Course start date changed: course=course-v1:edX+DemoX+Demo_Course previous=2030-01-01T00:00:00+00:00 new=2013-02-05T05:00:00+00:00
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function listen_for_course_publish at 0x7fdc0517ba28> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function _listen_for_course_publish at 0x7fdc04fdd938> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function _listen_for_course_publish at 0x7fdc04fdda28> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: [Errno 104] Connection reset by peer
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function update_block_structure_on_course_publish at 0x7fdc04f73398> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: [Errno 104] Connection reset by peer
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function _listen_for_course_publish at 0x7fdc04f73500> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function update_discussions_on_course_publish at 0x7fdc04f4c410> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: [Errno 104] Connection reset by peer
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function trigger_update_xblocks_cache_task at 0x7fdc04ee8410> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: [Errno 104] Connection reset by peer
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/openassessment/b24c33ea35954c7889e1d2944d3fe397 has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/discussion/12ad4f3ff4c14114a6e629b00e000976 has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/html/030e35c4756a4ddc8d40b95fbbfff4d4 has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][edxval.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:678] - VAL: Video created with id [5220cae9-f88a-441f-87db-a19d96641e34] and status [external]
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][edxval.api][env:sandbox] WARNING [josiah-VirtualBox  25531] [api.py:1132] - [edx-val] "en" transcript "subs_name_of_file.srt.sjson" for video "5220cae9-f88a-441f-87db-a19d96641e34" is not found.
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/video/0b9e39477cf34507a7a48f74be381fdd has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/html/78e3719e864e45f3bee938461f3c3de6 has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/problem/700x_proteinmake has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/discussion/ed01bcd164e64038a78964a16eac3edc has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/html/2b94658d2eee4d85ae13f83bc24cfca9 has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/problem/700x_editmolB has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/discussion/0aa7a3bdbe18427795b0c1a1d7c3cb9a has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/html/ed5dccf14ae94353961f46fa07217491 has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][edxval.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:678] - VAL: Video created with id [ddf63393-1a4d-4702-a60b-3d74303c43f0] and status [external]
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.vertical_block][env:sandbox] ERROR [josiah-VirtualBox  25531] [vertical_block.py:170] - Unable to load child when parsing Vertical. Continuing...
+Traceback (most recent call last):
+  File "/edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/vertical_block.py", line 167, in definition_from_xml
+    child_block = system.process_xml(etree.tostring(child, encoding='unicode'))
+  File "/edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/modulestore/xml.py", line 181, in process_xml
+    id_manager,
+  File "/edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 1620, in xblock_from_node
+    self._convert_reference_fields_to_keys(block)  # difference from XBlock.runtime
+  File "/edx/app/edxapp/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 1665, in _convert_reference_fields_to_keys
+    field_value = getattr(xblock, field.name)
+  File "/edx/app/edxapp/venvs/edxapp/local/lib/python2.7/site-packages/xblock/fields.py", line 519, in __get__
+    value = self.from_json(field_data.get(xblock, self.name))
+  File "/edx/app/edxapp/venvs/edxapp/local/lib/python2.7/site-packages/xblock/fields.py", line 825, in from_json
+    raise TypeError('Value stored in a List must be None or a list, found %s' % type(value))
+TypeError: Value stored in a List must be None or a list, found <type 'str'>
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/discussion/9f9e1373cc8243b985c8750cc8acec7d has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/problem/Sample_ChemFormula_Problem has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/discussion/4d672c5893cb4f1dad0de67d2008522e has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:154] - Non-unique url_name in xml.  This may break state tracking for content.  url_name=New_Unit.  Content=<vertical display_name="New Unit" parent_sequential_url="i4x://edX/DemoX/sequential/simulations" ind
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][edxval.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:678] - VAL: Video created with id [5e0c67f5-c099-413c-8fe5-176077c0cf48] and status [external]
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][edxval.api][env:sandbox] WARNING [josiah-VirtualBox  25531] [api.py:1132] - [edx-val] "en" transcript "subs_3_yD_cEKoCk.srt.sjson" for video "5e0c67f5-c099-413c-8fe5-176077c0cf48" is not found.
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/html/Lab_5B_Mosfet_Amplifier_Experiment has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/discussion/03f051f9a8814881a3783d2511613aa6 has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/html/d45779ad3d024a40a09ad8cc317c0970 has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/html/55cbc99f262443d886a25cf84594eafb has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][root][env:sandbox] WARNING [josiah-VirtualBox  25531] [mixins.py:522] - XBlock <class 'xblock.internal.DiscussionXBlockWithMixins'> does not contain field url_name
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:218] - i4x://edX/DemoX/discussion/ade92343df3d4953a40ab3adc8805390 has more than one definition
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.xml][env:sandbox] WARNING [josiah-VirtualBox  25531] [xml.py:154] - Non-unique url_name in xml.  This may break state tracking for content.  url_name=Video_Demonstrations.  Content=<vertical display_name="Video Demonstrations" parent_sequential_url="i4x://edX/DemoX/sequential/19a3
+Mar 24 19:57:13 josiah-VirtualBox [service_variant=cms][edxval.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:678] - VAL: Video created with id [185266c4-8218-48be-b001-87045c21f7e0] and status [external]
+Mar 24 19:57:14 josiah-VirtualBox [service_variant=cms][openedx.core.djangoapps.content.course_overviews.models][env:sandbox] INFO [josiah-VirtualBox  25531] [models.py:150] - Updating course overview for course-v1:edX+DemoX+Demo_Course.
+Mar 24 19:58:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function listen_for_course_publish at 0x7fdc0517ba28> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+Mar 24 19:58:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function _listen_for_course_publish at 0x7fdc04fdd938> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+Mar 24 19:58:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function _listen_for_course_publish at 0x7fdc04fdda28> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+Mar 24 19:58:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function update_block_structure_on_course_publish at 0x7fdc04f73398> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: [Errno 104] Connection reset by peer
+Mar 24 19:58:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function _listen_for_course_publish at 0x7fdc04f73500> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: None
+Mar 24 19:58:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function update_discussions_on_course_publish at 0x7fdc04f4c410> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: [Errno 104] Connection reset by peer
+Mar 24 19:58:01 josiah-VirtualBox [service_variant=cms][xmodule.modulestore.django][env:sandbox] INFO [josiah-VirtualBox  25531] [django.py:198] - Sent course_published signal to <function trigger_update_xblocks_cache_task at 0x7fdc04ee8410> with kwargs {'course_key': CourseLocator('edX', 'DemoX', 'Demo_Course', None, None)}. Response was: [Errno 104] Connection reset by peer
+Mar 24 20:58:28 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  9368] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 20:58:28 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  9368] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 21:28:21 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24240] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 21:28:21 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24240] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 21:28:21 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24246] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 21:28:21 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24246] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 21:28:23 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24239] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 21:28:23 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24239] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 21:28:23 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24243] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 21:28:23 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24243] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 21:28:23 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24237] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 21:28:23 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24237] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 21:28:24 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24238] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 21:28:24 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24238] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 21:28:25 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24245] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 21:28:25 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24245] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 21:28:30 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24247] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 21:28:30 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24247] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 21:30:11 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24919] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 21:30:11 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24919] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 21:30:11 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24918] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 21:30:11 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24918] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 21:39:40 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  2016] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 21:39:40 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  2016] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 22:02:37 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13463] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 22:02:37 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13463] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 22:02:37 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13457] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 22:02:37 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13457] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 22:02:38 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13458] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 22:02:38 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13458] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 22:02:38 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13460] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 22:02:38 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13460] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 22:02:38 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13464] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 22:02:38 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13464] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 22:02:40 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13461] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 22:02:40 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13461] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 22:02:41 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13459] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 22:02:41 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13459] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 22:02:43 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13462] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 22:02:43 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13462] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 22:03:06 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13574] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 22:03:06 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13574] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 22:03:07 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13576] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 22:03:07 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  13576] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 22:36:18 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4718] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 22:36:18 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4718] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 23:00:39 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15361] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 23:00:39 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15361] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 23:00:41 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15365] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 23:00:41 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15365] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 23:00:41 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15372] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 23:00:41 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15372] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 23:00:42 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15369] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 23:00:42 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15369] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 23:00:43 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15362] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 23:00:43 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15362] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 23:00:43 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15363] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 23:00:43 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15363] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 23:00:43 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15367] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 23:00:43 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15367] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 23:00:45 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15364] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 23:00:45 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15364] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 23:01:31 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15988] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 23:01:31 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15988] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 23:01:32 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15986] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 23:01:32 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15986] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 24 23:54:06 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  11927] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 24 23:54:06 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  11927] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 00:10:30 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20906] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 00:10:30 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20906] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 00:10:30 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20903] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 00:10:30 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20903] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 00:10:32 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20910] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 00:10:32 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20910] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 00:10:32 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20905] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 00:10:32 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20905] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 00:10:34 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20912] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 00:10:34 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20912] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 00:10:35 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20907] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 00:10:35 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20907] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 00:10:36 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20904] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 00:10:36 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20904] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 00:10:36 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20914] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 00:10:36 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  20914] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 00:10:57 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  21053] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 00:10:57 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  21053] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 00:11:01 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  21054] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 00:11:01 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  21054] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 00:57:07 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15340] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 00:57:07 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15340] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:13:12 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24768] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:13:12 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  24768] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:37:40 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  6833] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:37:40 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  6833] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:53:13 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14991] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:53:13 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14991] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:53:15 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14980] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:53:15 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14980] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:53:15 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14978] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:53:15 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14978] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:53:15 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14983] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:53:15 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14983] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:53:16 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14979] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:53:16 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14979] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:53:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14998] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:53:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14998] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:53:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14984] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:53:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14984] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:53:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14990] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:53:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  14990] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:53:39 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15137] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:53:39 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15137] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 01:53:40 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15138] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 01:53:40 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  15138] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 02:03:35 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  25040] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 02:03:35 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  25040] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 02:25:14 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4239] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 02:25:14 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4239] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 02:25:16 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4235] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 02:25:16 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4235] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 02:25:16 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4240] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 02:25:16 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4240] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 02:25:16 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4232] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 02:25:16 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4232] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 02:25:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4238] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 02:25:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4238] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 02:25:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4237] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 02:25:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4237] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 02:25:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4236] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 02:25:17 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4236] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 02:25:18 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4241] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 02:25:19 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4241] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 02:25:37 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4657] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 02:25:37 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4657] [utils.py:51] - cannot import name EnterpriseCustomerUser
+Mar 25 02:25:40 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4656] [utils.py:50] - Could not import Registry from third_party_auth.provider
+Mar 25 02:25:40 josiah-VirtualBox [service_variant=cms][enterprise.utils][env:sandbox] WARNING [josiah-VirtualBox  4656] [utils.py:51] - cannot import name EnterpriseCustomerUser

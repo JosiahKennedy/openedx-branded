@@ -1,0 +1,14 @@
+W, [2020-03-24T20:10:01.334457 #5149]  WARN -- : NewRelic agent library not installed
+W, [2020-03-24T20:10:01.911403 #5149]  WARN -- : Overwriting existing field _id in class User.
+W, [2020-03-24T20:10:01.965416 #5149]  WARN -- : MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+W, [2020-03-24T20:10:01.966176 #5149]  WARN -- : MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+W, [2020-03-24T20:10:01.966636 #5149]  WARN -- : MONGODB | Unsupported client option 'timeout'. It will be ignored.
+W, [2020-03-24T20:10:02.033835 #5149]  WARN -- : NewRelic agent library not installed
+Loading config.ru.
+W, [2020-03-24T20:18:59.541562 #18268]  WARN -- : NewRelic agent library not installed
+W, [2020-03-24T20:19:00.001239 #18268]  WARN -- : Overwriting existing field _id in class User.
+W, [2020-03-24T20:19:00.040026 #18268]  WARN -- : MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+W, [2020-03-24T20:19:00.040113 #18268]  WARN -- : MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+W, [2020-03-24T20:19:00.040133 #18268]  WARN -- : MONGODB | Unsupported client option 'timeout'. It will be ignored.
+W, [2020-03-24T20:19:00.062876 #18268]  WARN -- : NewRelic agent library not installed
+Loading config.ru.

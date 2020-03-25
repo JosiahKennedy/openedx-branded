@@ -1,0 +1,5 @@
+# This file is created and updated by ansible, edit at your peril
+
+export PATH="/edx/app/ecommerce/nodeenvs/ecommerce/bin:/edx/app/ecommerce/venvs/ecommerce/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+export ECOMMERCE_CFG="/edx/etc/ecommerce.yml"
+export DJANGO_SETTINGS_MODULE="ecommerce.settings.production"

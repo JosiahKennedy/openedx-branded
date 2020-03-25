@@ -1,0 +1,5 @@
+# This file is created and updated by ansible, edit at your peril
+
+export PATH="/edx/app/discovery/nodeenvs/discovery/bin:/edx/app/discovery/venvs/discovery/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+export DJANGO_SETTINGS_MODULE="course_discovery.settings.production"
+export DISCOVERY_CFG="/edx/etc/discovery.yml"

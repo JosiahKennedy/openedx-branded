@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/edx/app/ecommerce/nodeenvs/ecommerce/lib/node_modules
+export NPM_CONFIG_PREFIX=/edx/app/ecommerce/nodeenvs/ecommerce
+export npm_config_prefix=/edx/app/ecommerce/nodeenvs/ecommerce
+exec /edx/app/ecommerce/nodeenvs/ecommerce/bin/node "$@"

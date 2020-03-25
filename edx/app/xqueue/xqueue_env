@@ -1,0 +1,5 @@
+# This file is created and updated by ansible, edit at your peril
+
+export XQUEUE_CFG="/edx/etc/xqueue.yml"
+export PATH="/edx/app/xqueue/venvs/xqueue/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+export DJANGO_SETTINGS_MODULE="xqueue.production"

@@ -1,0 +1,32 @@
+Mar 24 19:43:54 josiah-VirtualBox [service_variant=ecommerce][ecommerce.courses.models] INFO [josiah-VirtualBox  27379] [/edx/app/ecommerce/ecommerce/ecommerce/courses/models.py:205] - Retrieved course seat child product with certificate type [] for [course-v1:edX+DemoX+Demo_Course] from database.
+Mar 24 19:43:54 josiah-VirtualBox [service_variant=ecommerce][ecommerce.courses.models] INFO [josiah-VirtualBox  27379] [/edx/app/ecommerce/ecommerce/ecommerce/courses/models.py:247] - Retrieved course seat product stock record with certificate type [] for [course-v1:edX+DemoX+Demo_Course] from database.
+Mar 24 19:43:54 josiah-VirtualBox [service_variant=ecommerce][ecommerce.courses.models] INFO [josiah-VirtualBox  27379] [/edx/app/ecommerce/ecommerce/ecommerce/courses/models.py:205] - Retrieved course seat child product with certificate type [verified] for [course-v1:edX+DemoX+Demo_Course] from database.
+Mar 24 19:43:54 josiah-VirtualBox [service_variant=ecommerce][ecommerce.courses.models] INFO [josiah-VirtualBox  27379] [/edx/app/ecommerce/ecommerce/ecommerce/courses/models.py:247] - Retrieved course seat product stock record with certificate type [verified] for [course-v1:edX+DemoX+Demo_Course] from database.
+Mar 24 19:43:56 josiah-VirtualBox [service_variant=ecommerce][ecommerce.courses.publishers] ERROR [josiah-VirtualBox  27379] [/edx/app/ecommerce/ecommerce/ecommerce/courses/publishers.py:112] - Failed to publish commerce data for [course-v1:edX+DemoX+Demo_Course] to LMS.
+Traceback (most recent call last):
+  File "/edx/app/ecommerce/ecommerce/ecommerce/courses/publishers.py", line 100, in publish
+    commerce_api_client = site.siteconfiguration.commerce_api_client
+  File "/edx/app/ecommerce/venvs/ecommerce/local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/edx/app/ecommerce/ecommerce/ecommerce/core/models.py", line 457, in commerce_api_client
+    return EdxRestApiClient(self.build_lms_url('/api/commerce/v1/'), jwt=self.access_token)
+  File "/edx/app/ecommerce/ecommerce/ecommerce/core/models.py", line 384, in access_token
+    token_type='jwt'
+  File "/edx/app/ecommerce/venvs/ecommerce/local/lib/python2.7/site-packages/edx_rest_api_client/client.py", line 142, in get_oauth_access_token
+    return get_oauth_access_token(url, client_id, client_secret, token_type=token_type)
+  File "/edx/app/ecommerce/venvs/ecommerce/local/lib/python2.7/site-packages/edx_rest_api_client/client.py", line 76, in get_oauth_access_token
+    data = response.json()
+  File "/edx/app/ecommerce/venvs/ecommerce/local/lib/python2.7/site-packages/requests/models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/edx/app/ecommerce/venvs/ecommerce/local/lib/python2.7/site-packages/simplejson/__init__.py", line 518, in loads
+    return _default_decoder.decode(s)
+  File "/edx/app/ecommerce/venvs/ecommerce/local/lib/python2.7/site-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/edx/app/ecommerce/venvs/ecommerce/local/lib/python2.7/site-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 9 column 1 (char 8)
+Mar 24 19:44:13 josiah-VirtualBox [service_variant=ecommerce][ecommerce.theming.management.commands.update_assets] INFO [josiah-VirtualBox  28617] [/edx/app/ecommerce/ecommerce/ecommerce/theming/management/commands/update_assets.py:142] - Sass compilation started.
+Mar 24 19:44:13 josiah-VirtualBox [service_variant=ecommerce][ecommerce.theming.management.commands.update_assets] INFO [josiah-VirtualBox  28617] [/edx/app/ecommerce/ecommerce/ecommerce/theming/management/commands/update_assets.py:149] - Skipping theme sass compilation as theming is disabled.
+Mar 24 19:44:14 josiah-VirtualBox [service_variant=ecommerce][ecommerce.theming.management.commands.update_assets] INFO [josiah-VirtualBox  28617] [/edx/app/ecommerce/ecommerce/ecommerce/theming/management/commands/update_assets.py:161] - Sass compilation completed.
+Mar 24 19:44:14 josiah-VirtualBox [service_variant=ecommerce][ecommerce.theming.management.commands.update_assets] INFO [josiah-VirtualBox  28617] [/edx/app/ecommerce/ecommerce/ecommerce/theming/management/commands/update_assets.py:164] - >> ecommerce/static/sass/base -> ecommerce/static/css/base in 0:00:00.527718s
+Mar 24 19:44:14 josiah-VirtualBox [service_variant=ecommerce][ecommerce.theming.management.commands.update_assets] INFO [josiah-VirtualBox  28617] [/edx/app/ecommerce/ecommerce/ecommerce/theming/management/commands/update_assets.py:165] -

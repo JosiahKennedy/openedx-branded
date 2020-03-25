@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/edx/app/edxapp/nodeenvs/edxapp/lib/node_modules
+export NPM_CONFIG_PREFIX=/edx/app/edxapp/nodeenvs/edxapp
+export npm_config_prefix=/edx/app/edxapp/nodeenvs/edxapp
+exec /edx/app/edxapp/nodeenvs/edxapp/bin/node "$@"

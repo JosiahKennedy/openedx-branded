@@ -1,0 +1,3 @@
+2020-03-24 20:17:50,109 INFO 15656 [requests.packages.urllib3.connectionpool] connectionpool.py:180 - Starting new HTTP connection (1): localhost
+2020-03-24 20:17:52,074 INFO 15773 [requests.packages.urllib3.connectionpool] connectionpool.py:180 - Starting new HTTP connection (1): localhost
+2020-03-24 20:18:58,978 INFO 15773 [requests.packages.urllib3.connectionpool] connectionpool.py:219 - Resetting dropped connection: localhost

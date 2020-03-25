@@ -1,0 +1,4 @@
+# This file is created and updated by ansible, edit at your peril
+
+export ECOMMERCE_WORKER_CFG="/edx/etc/ecomworker.yml"
+export WORKER_CONFIGURATION_MODULE="ecommerce_worker.configuration.production"
